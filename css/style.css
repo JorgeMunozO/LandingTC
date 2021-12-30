@@ -470,7 +470,7 @@ header {
 }
 
 .text-green {
-    color: #2a7a23;
+    color: #0aaf78;
 }
 
 
@@ -484,6 +484,12 @@ header {
 
 .text-font500 {
     font-family: "Museo500";
+}
+.text-font100{
+    font-family: "Museo100";
+}
+.text-font300{
+    font-family: "Museo300";
 }
 
 /* 56pt */
@@ -551,6 +557,15 @@ header {
 }
 
 @font-face {
+    font-family: 'Museo100';
+    src: url('../fonts/MuseoSans-100.otf'); 
+}
+@font-face {
+    font-family: 'Museo300';
+    src: url('../fonts/MuseoSans-300.otf'); 
+}
+
+@font-face {
     font-family: 'Museo900';
     src: url('../fonts/MuseoSans-900.otf');
     /* src: local('icomoonregular'),
@@ -565,24 +580,24 @@ header {
 @font-face {
     font-family: 'Museo700';
     src: url('../fonts/MuseoSans-700.otf');
-    src: local('icomoonregular1'),
+/*     src: local('icomoonregular1'),
         url('../fonts/Museo700.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Museo700.woff') format('woff'),
         url('../fonts/Museo700.woff2') format('woff'),
         url('../fonts/Museo700.ttf') format('truetype'),
-        url('../fonts/Museo700.svg#open-sans') format('svg');
+        url('../fonts/Museo700.svg#open-sans') format('svg'); */
 }
 
 
 @font-face {
     font-family: 'Museo500';
     src: url('../fonts/MuseoSans-500.otf');
-    src: local('icomoonregular1'),
+    /* src: local('icomoonregular1'),
         url('../fonts/Museo500.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Museo500.woff') format('woff'),
         url('../fonts/Museo500.woff2') format('woff'),
         url('../fonts/Museo500.ttf') format('truetype'),
-        url('../fonts/Museo500.svg#open-sans') format('svg');
+        url('../fonts/Museo500.svg#open-sans') format('svg'); */
 }
 
 
