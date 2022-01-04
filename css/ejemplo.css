@@ -1,0 +1,17 @@
+
+
+
+.depth {
+    display: blok;
+    padding: 50px;
+    color: black;
+    font: bold 7em Arial, sans-serif;
+    position: relative;
+ }
+
+.depth:before {
+    content: attr(title);
+    color: transparent;
+    position: absolute;
+    text-shadow: 1px 2px 4px rgba(255,255,255,0.3);
+}

@@ -2,35 +2,36 @@
     background-color: #FFDD00;
 }
 
-.bg-rojo {
-    background-color: #FF1C00;
+.bg-sectionOne{
+     height: 42rem;
 }
-
-.bg-azuldegrade {
-    /* background: rgb(171,244,253);
-    background: radial-gradient(circle, rgba(171,244,253,1) 0%, rgba(255,255,255,1) 52%, rgba(171,244,253,1) 100%); */
-    background: rgb(171, 244, 253);
-    background: radial-gradient(circle, rgba(171, 244, 253, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(171, 244, 253, 1) 83%);
+.bg-sectionTwo{
+    background: rgb(108, 215, 230);
+    height: 70rem;
 }
-
-.bg-azul {
-    background-color: #00BFA8;
+.bg-sectionthree{
+    height: 42rem;
 }
-
-.bg-fondo {
-    background-color: #FDF5E9;
+.bg-sectionFive{
+    height: 30rem;
 }
 
 .bg-vigilado {
     background-image: url('../images/vigilado.png');
     position: absolute;
     width: 1rem;
-    height: 5rem;
+    height: 7rem;
     background-repeat: no-repeat;
     left: .5rem;
     top: 50%;
     margin-top: -37px;
 }
+
+
+
+
+
+
 
 .bl-chat a {
     text-decoration: none;
@@ -150,15 +151,76 @@
     width: 680px;
 }
 
+.img-contenedor-sectionthree {
+    position: absolute;
+    top: 21rem;
+    left: 0.3rem;
+    width: 680px;
+}
+.img-titulo{
+    position: absolute;
+    top: -6rem;
+    left: 18em;
+    width: 780px;
+}
+
 .img-fondo-sectionOne {
+    position: absolute;
+}
+.img-fondo-sectiontwo {
     position: absolute;
 }
 .text-Tarjeta{
     position: absolute;
-    /* top: 2rem;
-    left: 4rem; */
-    
+    top: 9.5rem;
+    left: 4rem;
 }
+
+.depthBack {
+   /*  display: blok; */
+    /* padding: 50px; */
+    color: rgba(0, 0, 0, 0.836);
+    font: bold 7em Arial, sans-serif;
+    position: relative;
+    line-height: 3rem;
+ }
+
+.depthBack:before {
+    content: attr(title);
+    color: transparent;
+    position: absolute;
+    text-shadow: 5px 9px 4px rgba(255, 251, 251, 0.123);
+}
+.depthblue {
+    /*  display: blok; */
+     /* padding: 50px; */
+     color: #008ca0;
+  
+     position: relative;
+     line-height: 3rem;
+  }
+ 
+ .depthblue:before {
+     content: attr(title);
+     color: transparent;
+     position: absolute;
+     text-shadow: 5px 9px 4px rgba(255, 251, 251, 0.123);
+     
+ }
+
+ .depthblueSI {
+     color: #008ca0;
+     position: relative;
+     line-height: 3rem;
+  }
+ 
+ .depthblueSI:before {
+     content: attr(title);
+     color: transparent;
+     position: absolute;
+     text-shadow: 5px 9px 4px rgba(255, 251, 251, 0.123);
+    }
+
 .img-BtnSi {
     position: absolute;
     top: 23.8rem;
@@ -179,7 +241,37 @@
     left: 39.3rem;
     width: 620px;
 }
+.img-icono-mano{
+    position: absolute;
+    top: 18rem;
+    left: 52rem;
+    width: 120px;
+}
+.img-chat {
+    position: absolute;
+    top: 8.5rem;
+    left: 9rem;
+    width: 870px;
+}
+.img-tarjeta2 {
+    position: absolute;
+    top: 14rem;
+    left: -6.5rem;
+    width: 620px;
+}
+.img-opciones{
+    position: relative;
+    top: 10rem;
+    left: 30rem;
+    width: 400px;
+}
 
+.botones{
+    position: absolute;
+    /* top: 18rem;
+    left: 30rem;
+    width: 400px; */
+} 
 
 
 
@@ -318,6 +410,58 @@
     width: 200px;
     top: -6rem;
 }
+.btn-Si {
+    background: #ffffff;
+    /* color: rgb(41, 40, 40); */
+    border-radius: 5rem;
+    padding: 0.5rem 4rem;
+    border: 1px solid #ffffff;
+    
+}
+
+.positionbtnSi{
+    position: absolute;
+    top: 24.3rem;
+    left: 4rem;
+    width: 250px;
+    height: 75px;
+}
+.positionbtnNo{
+    position: absolute;
+    top: 24.3rem;
+    left: 2rem;
+    width: 250px;
+    height: 75px;
+}
+
+.btn-Si:hover {
+    background: white;
+    color: #05859A;
+   /*  border: 1px solid #f8f8f8; */
+}
+
+.btn-No {
+    background: #feda00;
+    color: #feda00;
+    border-radius: 5rem;
+    padding: 0.5rem 4rem;
+    border: 1px solid #feda00;
+    
+}
+.positionbtnNo{
+    position: absolute;
+    top: 24.3rem;
+    left: 4rem;
+    width: 250px;
+}
+
+.btn-No:hover {
+    background: #feda00;
+    color: #feda00;
+    border: 1px solid #feda00;
+}
+
+
 
 .btn-registro {
     background: #00BFA8;
@@ -333,40 +477,9 @@
     border: 1px solid #00BFA8;
 }
 
-.btn-red {
-    background: #FF1C00;
-    color: white;
-    border-radius: 5rem;
-    padding: 0.5rem 4rem;
-    border: 1px solid #FF1C00;
-    font-size: 26px;
-    line-height: normal;
-}
-
-.btn-red:hover {
-    background: white;
-    color: #FF1C00;
-    border: 1px solid #FF1C00;
-}
-
-.btn-premio {
-    background: #FF1C00;
-    color: white;
-    border-radius: 5rem;
-    padding: 0rem 2rem;
-    border: 1px solid #FF1C00;
-    font-size: 93px;
-    line-height: 5rem;
-}
-
-.btn-premio:hover {
-    background: white;
-    color: #FF1C00;
-    border: 1px solid #FF1C00;
-}
 
 header {
-    height: 100px;
+    height: 120px;
     padding-top: 1rem;
 }
 
@@ -452,6 +565,9 @@ header {
 .text-azulOsc {
     color: #05859A;
 }
+.text-col-negro {
+    color: #414344;
+}
 
 .text-verdeCorp {
     color: #428893;
@@ -470,7 +586,7 @@ header {
 }
 
 .text-green {
-    color: #0aaf78;
+    color: #0aaf93;
 }
 
 
@@ -492,38 +608,31 @@ header {
     font-family: "Museo300";
 }
 
+
 /* 56pt */
 .text-vlg {
     font-size: 3.5rem;
 }
 
-.text-Tam-medium {
-    font-size: 4rem;
-}
 
-.text-max {
-    font-size: 6rem;
-}
 
-.text-Tam-Signo {
-    font-size: 3.5rem;
 
-}
+
+
 
 /* 70pt */
 .text-vii {
-    font-size: 4.4rem;
+    font-size: 5rem;
 }
-
 
 /* 60pt */
 .text-vi {
-    font-size: 3.7rem;
+    font-size: 4rem;
 }
 
 /* 40pt */
 .text-iv {
-    font-size: 2.5rem;
+    font-size: 3.1rem;
 }
 
 /* 33pt */
@@ -556,6 +665,8 @@ header {
     font-size: .65rem;
 }
 
+p.posit {word-spacing: 0px;}
+
 @font-face {
     font-family: 'Museo100';
     src: url('../fonts/MuseoSans-100.otf'); 
@@ -568,36 +679,18 @@ header {
 @font-face {
     font-family: 'Museo900';
     src: url('../fonts/MuseoSans-900.otf');
-    /* src: local('icomoonregular'),
-         url('../fonts/Museo900.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Museo900.woff') format('woff'),
-         url('../fonts/Museo900.woff2') format('woff'),
-         url('../fonts/Museo900.ttf') format('truetype'),
-         url('../fonts/Museo900.svg#open-sans') format('svg'); */
 }
 
 
 @font-face {
     font-family: 'Museo700';
     src: url('../fonts/MuseoSans-700.otf');
-/*     src: local('icomoonregular1'),
-        url('../fonts/Museo700.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Museo700.woff') format('woff'),
-        url('../fonts/Museo700.woff2') format('woff'),
-        url('../fonts/Museo700.ttf') format('truetype'),
-        url('../fonts/Museo700.svg#open-sans') format('svg'); */
 }
 
 
 @font-face {
     font-family: 'Museo500';
     src: url('../fonts/MuseoSans-500.otf');
-    /* src: local('icomoonregular1'),
-        url('../fonts/Museo500.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Museo500.woff') format('woff'),
-        url('../fonts/Museo500.woff2') format('woff'),
-        url('../fonts/Museo500.ttf') format('truetype'),
-        url('../fonts/Museo500.svg#open-sans') format('svg'); */
 }
 
 
