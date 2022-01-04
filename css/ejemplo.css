@@ -15,3 +15,34 @@
     position: absolute;
     text-shadow: 1px 2px 4px rgba(255,255,255,0.3);
 }
+
+.boton4{
+            
+    display:inline-block;
+    width:50%;
+    padding:10px;
+    
+    background: rgb(143, 143, 143);
+    width:80%;
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    transition: all 0.9s ease;
+    border: 40px solid rgb(red, green, blue);
+    border-radius: 45px 45px 45px;
+    border-bottom-right-radius: 10px ;
+}
+.btn4{
+  
+}
+
+
+ /*  .boton4:hover{
+            
+    background: rgb(182, 187, 182);
+    color:rgb(126, 126, 126);
+    box-shadow:none;
+    border-radius: 10px;
+
+  } */
