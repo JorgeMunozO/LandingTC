@@ -99,7 +99,7 @@
             <img src="images/sectionOne/Título-No.png" alt="" class="img-fluid img-titulo">
         </div>
         <div class="col-12">
-            <img src="images/sectionTwo/Moda.png" alt="" class="img-fluid img-opciones">
+            <img src="images/sectionTwo/Moda.png" id="imagencategoria" alt="" class="img-fluid img-opciones">
         </div>
        
         <div class="col-12">
@@ -108,21 +108,21 @@
             </p>
         </div>
         <div class="col-12 row ">
-            <div class="col-btn text-center text-fontM mx-0">
-                <a href ="#" class="btn_varios text-v">Mercado</a>
-            </div>
+            <button class="col-btn text-center text-fontM mx-0">
+                <a onclick="oprimir('Comida')" href ="#" class="btn_varios text-v">Comida</a>
+            </button>
             <div class="col-btn text-center text-fontM">
-                <a href ="#" class="btn_varios text-v">Mercado</a>
-            </div>
-            <div class="col-btn text-center text-fontM">
-                <a href ="#" class="btn_varios text-v">Mercado</a>
-            </div>
-            <div class="col-btn text-center text-fontM">
-                <a href ="#" class="btn_varios text-v">Mercado</a>
-            </div>
-            <div class="col-btn text-center text-fontM">
-                <a href ="#" class="btn_varios text-v">Mercado</a>
-            </div>
+                <a onclick="oprimir('Moda')" href ="#" class="btn_varios text-v">Moda</a>
+            </button>
+            <button class="col-btn text-center text-fontM">
+                <a onclick="oprimir('Entretenimiento')" href ="#" class="btn_varios text-v">Diversión</a>
+            </button>
+            <button class="col-btn text-center text-fontM">
+                <a onclick="oprimir('Mercado')"href ="#" class="btn_varios text-v">Mercado</a>
+            </button>
+            <button class="col-btn text-center text-fontM">
+                <a onclick="oprimir('Ahorro')" href ="#" class="btn_varios text-v">Ahorros</a>
+            </button>
 
             <div class="col-12">
                 <img src="images/sectionTwo/Asi de Facil.png" alt="" class="img-flui">
@@ -223,7 +223,9 @@
 
         </div>
     </footer>
-
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/botones.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
