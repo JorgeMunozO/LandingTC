@@ -1,3 +1,19 @@
+.rectangulo {
+    width: 350px;
+    height: 300px;
+    border: 4px solid #fdfbfbf5;
+    background: rgb(229 221 221 / 19%);
+    border-radius: 26px;
+}
+.contenedor1{
+    width: 350px;
+    height: 330px;
+    border: 4px solid #fdfbfbf5;
+    background: rgba(250, 248, 248, 0.301);
+    border-radius: 26px;
+    top: 90px;
+}
+
 .col-btn {
     -ms-flex: 0 0 20%;
     flex: 0 0 20%;
@@ -12,10 +28,12 @@
      height: 42rem;
 }
 .bg-sectionTwo{
-    background: rgb(108, 215, 230);
-    height: 70rem;
+     height: 70rem;
 }
 .bg-sectionthree{
+    height: 48rem;
+}
+.bg-sectionFour{
     height: 42rem;
 }
 .bg-sectionFive{
@@ -178,7 +196,7 @@
 }
 .text-Tarjeta{
     position: absolute;
-    top: 9.5rem;
+    top: 4rem;
     left: 4rem;
 }
 
@@ -243,8 +261,8 @@
 
 .img-mano {
     position: absolute;
-    top: 2.8rem;
-    left: 39.3rem;
+    top: 2rem;
+    left: -2rem;
     width: 620px;
 }
 .img-icono-mano{
@@ -265,6 +283,18 @@
     left: -6.5rem;
     width: 620px;
 }
+.img-tarjeta{
+    position: absolute;
+    top: 1rem;
+    left: -6.5rem;
+    width: 620px;
+}
+.bg-position{
+    position: relative;
+    top: 2rem;
+   /*  left: -6.5rem; */
+}
+
 .img-opciones{
     position: relative;
     top: 13rem;
@@ -427,18 +457,18 @@
 
 .positionbtnSi{
     position: absolute;
-    top: 24.3rem;
-    left: 4rem;
-    width: 250px;
-    height: 75px;
+    top: 0rem;
+    left: 7rem;
+    width: 200px;
+    height: 70px;
 }
 
 .positionbtnNo{
     position: absolute;
-    top: 24.3rem;
+    top: 0rem;
     left: 2rem;
-    width: 250px;
-    height: 75px;
+    width: 200px;
+    height: 70px;
 }
 
 .btn-Si:hover {
@@ -454,12 +484,6 @@
     padding: 0.5rem 4rem;
     border: 1px solid #feda00;
     
-}
-.positionbtnNo{
-    position: absolute;
-    top: 24.3rem;
-    left: 4rem;
-    width: 250px;
 }
 
 .btn-No:hover {
@@ -523,6 +547,7 @@ header {
 .line-normal3 {
     line-height: 3rem;
 }
+
 
 .list-metas {
     list-style: none;
@@ -638,11 +663,6 @@ header {
 }
 
 
-
-
-
-
-
 /* 70pt */
 .text-vii {
     font-size: 5rem;
@@ -660,7 +680,7 @@ header {
 
 /* 33pt */
 .text-lgs {
-    font-size: 2.06rem;
+    font-size: 2.8rem;
 }
 
 /* 30pt */
