@@ -12,8 +12,10 @@
      height: 42rem;
 }
 .bg-sectionTwo{
-    background: rgb(108, 215, 230);
-    height: 70rem;
+    background-image: url('../images/sectionTwo/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
 }
 .bg-sectionthree{
     height: 42rem;
@@ -163,13 +165,6 @@
     left: 0.3rem;
     width: 680px;
 }
-.img-titulo{
-    position: absolute;
-    top: -6rem;
-    left: 18em;
-    width: 780px;
-}
-
 .img-fondo-sectionOne {
     position: absolute;
 }
@@ -1608,4 +1603,34 @@ p.posit {word-spacing: 0px;}
     .text-xxs {
         font-size: 1rem;
     }
+}
+
+/**BOTONES SECCION 2**/
+
+.img-titulo{
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10rem;
+    left: 18em;
+    width: 780px;
+}
+
+#botonCategorias{
+    font-size: 1.5rem;
+    font-family:'Museo700';
+    
+    width: 45px;
+    margin-right: 25px;
+}
+
+#imagenCategoriaSeccion{
+    margin-top: 0.5rem;
+height:700px
+}
+
+#imagencategoria{
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
 }
