@@ -11,12 +11,7 @@
 .bg-sectionOne{
      height: 42rem;
 }
-.bg-sectionTwo{
-    background-image: url('../images/sectionTwo/fondo.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: fit-content;
-}
+
 .bg-sectionthree{
     height: 42rem;
 }
@@ -1608,7 +1603,12 @@ p.posit {word-spacing: 0px;}
 /**SECCION 1**/
 
 /**SECCION 2**/
-
+.bg-sectionTwo{
+    background-image: url('../images/sectionTwo/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+}
 .img-titulo{
     margin-left:auto;
     margin-right: auto;
