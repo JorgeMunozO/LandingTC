@@ -1,21 +1,80 @@
+/* **************Section Cinco */
+.btn-chat {
+    background: #ffffff;
+    /* color: rgb(41, 40, 40); */
+    border-radius: 5rem;
+    padding: 0.5rem 4rem;
+    border: 1px solid #ffffff;
+
+}
+.btn-chat:hover {
+    background: white;
+    color: #05859A;
+    /*  border: 1px solid #f8f8f8; */
+}
+.btn-chatPosition{
+    position: absolute;
+    top: 0rem;
+    left: 13rem;
+    width: 721px;
+    height: 120px;
+}
+
+
+
+.rectangulo {
+    width: 350px;
+    height: 300px;
+    border: 4px solid #fdfbfbf5;
+    background: rgb(229 221 221 / 19%);
+    border-radius: 26px;
+}
+
+.contenedor1 {
+    width: 350px;
+    height: 330px;
+    border: 4px solid #fdfbfbf5;
+    background: rgba(250, 248, 248, 0.301);
+    border-radius: 26px;
+    top: 90px;
+}
+
+.contenedor2 {
+    width: 620px;
+    height: 380px;
+    border: 4px solid #fdfbfbf5;
+    background: rgba(250, 248, 248, 0.301);
+    border-radius: 26px;
+    top: 0px;
+}
+
 .col-btn {
     -ms-flex: 0 0 20%;
     flex: 0 0 20%;
     max-width: 20%;
-  }
+}
 
 .bg-amarillo {
     background-color: #FFDD00;
 }
 
-.bg-sectionOne{
-     height: 42rem;
-}
-
-.bg-sectionthree{
+.bg-sectionOne {
     height: 42rem;
 }
-.bg-sectionFive{
+
+.bg-sectionTwo {
+    height: 70rem;
+}
+
+.bg-sectionthree {
+    height: 44rem;
+}
+
+.bg-sectionFour {
+    height: 42rem;
+}
+
+.bg-sectionFive {
     height: 30rem;
 }
 
@@ -29,12 +88,6 @@
     top: 50%;
     margin-top: -37px;
 }
-
-
-
-
-
-
 
 .bl-chat a {
     text-decoration: none;
@@ -160,26 +213,36 @@
     left: 0.3rem;
     width: 680px;
 }
+
+.img-titulo {
+    position: absolute;
+    top: -6rem;
+    left: 18em;
+    width: 780px;
+}
+
 .img-fondo-sectionOne {
     position: absolute;
 }
+
 .img-fondo-sectiontwo {
     position: absolute;
 }
-.text-Tarjeta{
+
+.text-Tarjeta {
     position: absolute;
-    top: 9.5rem;
+    top: 4rem;
     left: 4rem;
 }
 
 .depthBack {
-   /*  display: blok; */
+    /*  display: blok; */
     /* padding: 50px; */
     color: rgba(0, 0, 0, 0.836);
     font: bold 7em Arial, sans-serif;
     position: relative;
     line-height: 3rem;
- }
+}
 
 .depthBack:before {
     content: attr(title);
@@ -187,35 +250,36 @@
     position: absolute;
     text-shadow: 5px 9px 4px rgba(255, 251, 251, 0.123);
 }
+
 .depthblue {
     /*  display: blok; */
-     /* padding: 50px; */
-     color: #008ca0;
-  
-     position: relative;
-     line-height: 3rem;
-  }
- 
- .depthblue:before {
-     content: attr(title);
-     color: transparent;
-     position: absolute;
-     text-shadow: 5px 9px 4px rgba(255, 251, 251, 0.123);
-     
- }
+    /* padding: 50px; */
+    color: #008ca0;
 
- .depthblueSI {
-     color: #008ca0;
-     position: relative;
-     line-height: 3rem;
-  }
- 
- .depthblueSI:before {
-     content: attr(title);
-     color: transparent;
-     position: absolute;
-     text-shadow: 5px 9px 4px rgba(255, 251, 251, 0.123);
-    }
+    position: relative;
+    line-height: 3rem;
+}
+
+.depthblue:before {
+    content: attr(title);
+    color: transparent;
+    position: absolute;
+    text-shadow: 5px 9px 4px rgba(255, 251, 251, 0.123);
+
+}
+
+.depthblueSI {
+    color: #008ca0;
+    position: relative;
+    line-height: 3rem;
+}
+
+.depthblueSI:before {
+    content: attr(title);
+    color: transparent;
+    position: absolute;
+    text-shadow: 5px 9px 4px rgba(255, 251, 251, 0.123);
+}
 
 .img-BtnSi {
     position: absolute;
@@ -233,41 +297,58 @@
 
 .img-mano {
     position: absolute;
-    top: 2.8rem;
-    left: 39.3rem;
+    top: 2rem;
+    left: -2rem;
     width: 620px;
 }
-.img-icono-mano{
+
+.img-icono-mano {
     position: absolute;
-    top: 18rem;
+    top: 11rem;
     left: 52rem;
     width: 120px;
 }
+
 .img-chat {
     position: absolute;
     top: 8.5rem;
     left: 9rem;
     width: 870px;
 }
+
 .img-tarjeta2 {
     position: absolute;
     top: 14rem;
     left: -6.5rem;
     width: 620px;
 }
-.img-opciones{
+
+.img-tarjeta {
+    position: absolute;
+    top: 1rem;
+    left: -6.5rem;
+    width: 620px;
+}
+
+.bg-position {
+    position: relative;
+    top: 2rem;
+    /*  left: -6.5rem; */
+}
+
+.img-opciones {
     position: relative;
     top: 13rem;
     left: 30rem;
     width: 400px;
 }
 
-.botones{
+.botones {
     position: absolute;
     /* top: 18rem;
     left: 30rem;
     width: 400px; */
-} 
+}
 
 
 
@@ -392,50 +473,55 @@
     padding-left: 13rem;
 }
 
-.bl-superpremios {
-    padding-bottom: 2rem;
-}
-
-.bl-superpremios--line {
-    line-height: normal;
-}
-
-.bl-superpremios .img-regalopremios {
-    position: absolute;
-    right: -8rem;
-    width: 200px;
-    top: -6rem;
-}
 .btn-Si {
     background: #ffffff;
     /* color: rgb(41, 40, 40); */
     border-radius: 5rem;
     padding: 0.5rem 4rem;
     border: 1px solid #ffffff;
-    
-}
 
-.positionbtnSi{
-    position: absolute;
-    top: 24.3rem;
-    left: 4rem;
-    width: 250px;
-    height: 75px;
 }
-
-.positionbtnNo{
-    position: absolute;
-    top: 24.3rem;
-    left: 2rem;
-    width: 250px;
-    height: 75px;
-}
-
 .btn-Si:hover {
     background: white;
     color: #05859A;
-   /*  border: 1px solid #f8f8f8; */
+    /*  border: 1px solid #f8f8f8; */
 }
+
+.btn-Registrar {
+    background: #008ca0;
+    color: #ffdf00;
+    border-radius: 5rem;
+    padding: 0rem 2rem;
+    border: 1px solid #008ca0;
+    height: 45px;
+    width: 200px;
+}
+
+.btn-Registrar:hover {
+    background: #008ca0;
+    color: #ffdf00;
+}
+
+/*  */
+/* ************ SECCION UNO *******************/
+
+.positionbtnSi {
+    position: absolute;
+    top: 0rem;
+    left: 7rem;
+    width: 200px;
+    height: 70px;
+}
+
+.positionbtnNo {
+    position: absolute;
+    top: 0rem;
+    left: 2rem;
+    width: 200px;
+    height: 70px;
+}
+
+
 
 .btn-No {
     background: #feda00;
@@ -443,13 +529,7 @@
     border-radius: 5rem;
     padding: 0.5rem 4rem;
     border: 1px solid #feda00;
-    
-}
-.positionbtnNo{
-    position: absolute;
-    top: 24.3rem;
-    left: 4rem;
-    width: 250px;
+
 }
 
 .btn-No:hover {
@@ -458,21 +538,35 @@
     border: 1px solid #feda00;
 }
 
-.btn_varios{      
-    display:inline-block;
-    width:50%;
-    padding:1px;
-    
+/* ************ TERCERA SECCION *******************/
+
+.inputRegistrar {
+    border-radius: 5rem;
+    height: 35px;
+    box-shadow: 0px 0px 0px 1px #9594947d inset;
+    box-shadow: 1px 2px 5px 0px #a8a4a478;
+    border-color: rgb(180 179 177 / 7%);
+    border-radius: 20px;
+    box-shadow: inset 0px 1px 3px #5653546e;
+}
+
+
+
+.btn_varios {
+    display: inline-block;
+    width: 50%;
+    padding: 1px;
+
     background: rgb(221 228 229);
-    width:80%;
+    width: 80%;
     text-align: center;
-    color:#fbf7f7;
+    color: #fbf7f7;
     font-size: 30px;
     font-weight: bold;
     /* transition: all 0.9s ease; */
-    
+
     border-radius: 45px 45px 45px;
-    border-bottom-right-radius: 10px ;
+    border-bottom-right-radius: 10px;
 }
 
 
@@ -512,6 +606,13 @@ header {
 
 .line-normal3 {
     line-height: 3rem;
+}
+
+.line-normal4ta {
+    line-height: 1.2rem;
+}
+.line-normal5ta {
+    line-height: 1.2rem;
 }
 
 .list-metas {
@@ -567,6 +668,12 @@ header {
     font-family: 'Museo900'
 }
 
+
+.txt-right {
+    text-align: right;
+    color: #464646;
+}
+
 .text-gris {
     color: #333;
 }
@@ -578,6 +685,7 @@ header {
 .text-azulOsc {
     color: #05859A;
 }
+
 .text-col-negro {
     color: #414344;
 }
@@ -614,10 +722,12 @@ header {
 .text-font500 {
     font-family: "Museo500";
 }
-.text-font100{
+
+.text-font100 {
     font-family: "Museo100";
 }
-.text-font300{
+
+.text-font300 {
     font-family: "Museo300";
 }
 
@@ -628,19 +738,18 @@ header {
 }
 
 
-
-
-
-
-
 /* 70pt */
 .text-vii {
     font-size: 5rem;
 }
 
+.text-vi2 {
+    font-size: 4rem;
+}
+
 /* 60pt */
 .text-vi {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 /* 40pt */
@@ -650,22 +759,26 @@ header {
 
 /* 33pt */
 .text-lgs {
-    font-size: 2.06rem;
+    font-size: 2.8rem;
 }
 
 /* 30pt */
 .text-lg {
-    font-size: 1.87rem;
+    font-size: 2.4rem;
 }
 
-/* 26pt */
+.text-4taSection {
+    font-size: 2.0rem;
+}
+
+/* F */
 .text-xxs {
     font-size: 1.62rem;
 }
 
-/* 20pt */
+/* F */
 .text-xx {
-    font-size: 1.25rem;
+    font-size: 1.13rem;
 }
 
 /* 12 */
@@ -678,15 +791,18 @@ header {
     font-size: .65rem;
 }
 
-p.posit {word-spacing: 0px;}
+p.posit {
+    word-spacing: 0px;
+}
 
 @font-face {
     font-family: 'Museo100';
-    src: url('../fonts/MuseoSans-100.otf'); 
+    src: url('../fonts/MuseoSans-100.otf');
 }
+
 @font-face {
     font-family: 'Museo300';
-    src: url('../fonts/MuseoSans-300.otf'); 
+    src: url('../fonts/MuseoSans-300.otf');
 }
 
 @font-face {
@@ -1599,7 +1715,6 @@ p.posit {word-spacing: 0px;}
         font-size: 1rem;
     }
 }
-
 /**SECCION 1**/
 
 /**SECCION 2**/
