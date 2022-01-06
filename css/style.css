@@ -62,10 +62,6 @@
     height: 42rem;
 }
 
-.bg-sectionTwo {
-    height: 70rem;
-}
-
 .bg-sectionthree {
     height: 44rem;
 }
@@ -212,13 +208,6 @@
     top: 21rem;
     left: 0.3rem;
     width: 680px;
-}
-
-.img-titulo {
-    position: absolute;
-    top: -6rem;
-    left: 18em;
-    width: 780px;
 }
 
 .img-fondo-sectionOne {
@@ -1728,7 +1717,7 @@ p.posit {
     margin-left:auto;
     margin-right: auto;
     display: block;
-    margin-top: 10rem;
+    margin-top: 3%;
     left: 18em;
     width: 780px;
 }
