@@ -34,7 +34,7 @@
 
 .contenedor1 {
     width: 350px;
-    height: 330px;
+    height: 350px;
     border: 4px solid #fdfbfbf5;
     background: rgba(250, 248, 248, 0.301);
     border-radius: 26px;
@@ -68,15 +68,6 @@
     background-color: rgba(255, 255, 255, 0.392);
 }
 
-
-
-
-
-.col-btn {
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%;
-}
 
 .bg-amarillo {
     background-color: #FFDD00;
@@ -307,7 +298,23 @@
     left: 20rem;
     width: 250px;
 }
+.positionSigno{
+    position: absolute;
+    top: -2rem;
+    left: 1rem;
+}
+.positionSignoOut{
+    position: absolute;
+    top: 7.5rem;
+    left: 28rem;
+}
+.rotacionSignoIn{
+    transform: rotate(6deg);
+}
 
+.rotacionSignoOut{
+    transform: rotate(15deg);
+}
 .img-mano {
     position: absolute;
     top: 2rem;
@@ -752,6 +759,10 @@ header {
     font-size: 3.5rem;
 }
 
+.text-signo{
+    font-size: 7rem;
+}
+
 
 /* 70pt */
 .text-vii {
@@ -839,903 +850,73 @@ p.posit {
 
 
 @media (max-width:1680px) {
-    .img-nube--roja {
-        margin-top: -31rem;
+    .img-mano {
+        position: absolute;
+        top: 2rem;
+        left: -2rem;
+        width: 620px;
     }
 
-    .img-nube--azul {
-        margin-top: -31rem;
-    }
 
-    .bl-registrar .img-billete1 {
-        left: 15rem;
-    }
+    
 }
 
 @media(max-width:1440px) {
-    .img-nube--roja {
-        margin-top: -27rem;
-    }
-
-    .img-nube--azul {
-        margin-top: -27rem;
-    }
-
-    .bl-nubes--rojas .img-billete2 {
-        position: absolute;
-        right: 2rem;
-
-    }
-
-    .bl-registrar .img-billete1 {
-        left: 4rem;
-    }
+    
 }
 
 @media(max-width:1366px) {
-    .img-nube--roja {
-        margin-top: -26rem;
-    }
-
-    .img-nube--azul {
-        margin-top: -25.5rem;
-    }
-
-    .bl-superpremios .img-regalopremios {
-        right: -5rem;
-        top: -5rem;
-    }
+    
 }
 
 @media(max-width:1280px) {
-    .img-contenedor {}
-
-    .bl-nubes--azules .img-billete5 {
-        right: 0rem;
-    }
-
-    .bl-superpremios .img-regalopremios {
-        right: -3rem;
-    }
-
-    .img-nube--roja {
-        margin-top: -24rem;
-    }
-
-    .img-nube--azul {
-        margin-top: -24.5rem;
-    }
+    
 }
 
 @media(max-width:1024px) {
-    .bl-gracias .img-feriado3 {
-        right: -1rem;
-        bottom: 12rem;
-    }
-
-    .bl-gracias .img-feriado4 {
-        right: -2rem;
-        top: 37rem;
-        width: 200px;
-    }
-
-    .bl-gracias .img-feriado5 {
-        left: -2rem;
-    }
-
-    .bl-gracias .img-regalo3 {
-        right: -2rem;
-        top: 40rem;
-    }
-
-    .bl-nubes--azules .img-billete5 {
-        right: -2rem;
-    }
-
-    .bl-nubes--rojas .img-billete2 {
-        width: 160px;
-        top: -17rem;
-    }
-
-    .bl-superpremios .text-lg {
-        font-size: 1.6rem;
-    }
-
-    .bl-superpremios .img-regalopremios {
-        right: -1rem;
-        top: -3rem;
-        width: 120px;
-    }
-
-    .bl-registrar .img-billete1 {
-        left: -4rem;
-        top: 8rem;
-    }
-
-    .bl-registro form .form-group--select select {
-        width: 57%;
-    }
-
-    .bl-registro--preguntas {
-        width: 60%;
-    }
-
-    .bl-superpremios {
-        padding-bottom: 12rem;
-
-    }
-
-    .bl-superpremios .img-1millon {
-        margin-bottom: -32rem;
-    }
-
-    .bl-superpremios .text-iv {
-        font-size: 2rem;
-    }
-
-    .bl-superpremios .text-lgs {
-        font-size: 1.7rem;
-    }
-
-    .img-nube--roja {
-        margin-top: -20rem;
-    }
-
-    .img-nube--azul {
-        margin-top: -19.5rem;
-    }
+    
 }
 
 @media (max-width: 990px) {
-    .bl-gracias .img-feriado1 {
-        top: 20rem;
-        left: -2rem;
-    }
-
-    .bl-gracias .img-feriado3 {
-        right: -4rem;
-    }
-
-    .bl-gracias .img-feriado4 {
-        right: -3rem;
-        top: 33rem;
-    }
-
-    .bl-gracias .img-feriado5 {
-        left: -5rem;
-        top: 28rem;
-    }
-
-    .bl-gracias .img-regalo3 {
-        right: -6rem;
-        top: 31rem;
-    }
-
-    .bl-nubes--azules .img-regalo2 {
-        top: -40rem;
-        left: -10rem;
-    }
-
-    .bl-nubes--rojas .img-billete3 {
-        left: -15rem;
-        top: 19rem;
-    }
-
-    .bl-superpremios {
-        padding-bottom: 30rem;
-    }
-
-    .bl-superpremios .img-regalopremios {
-        right: -7rem;
-    }
-
-    .img-nube--roja {
-        margin-top: -19rem;
-    }
-
-    .img-nube--azul {
-        margin-top: -9.5rem;
-    }
+    
 }
 
 @media (max-width: 768px) {
-    .bl-botonchat {
-        width: 30rem;
-        padding: 0rem 0rem 2rem 0rem;
-        font-size: 30px;
     }
-
-    .bl-contacto .img-billete {
-        top: -11rem;
-        left: -4rem;
-        width: 150px;
-    }
-
-    .bl-gracias .img-feriado3 {
-        right: -1rem;
-        width: 130px;
-    }
-
-    .bl-gracias .img-regalo3 {
-        right: -1rem;
-        top: 32rem;
-    }
-
-    .bl-nubes--azules .img-billete5 {
-        right: 0rem;
-    }
-
-    .bl-nubes--rojas .img-billete2 {
-        right: 1rem;
-        width: 140px;
-        top: -14rem;
-    }
-
-    .bl-nubes--rojas .img-billete3 {
-        left: -9rem;
-    }
-
-    .bl-nubes--azules .img-regalo2 {
-        left: -3rem;
-    }
-
-    .bl-registro--preguntas {
-        width: 50%;
-        margin: 0 auto;
-    }
-
-    .bl-superpremios .img-regalopremios {
-        right: -1rem;
-        top: -5rem;
-    }
-
-    .img-nube--azul {
-        margin-top: -7.5rem;
-    }
-
-    .img-nube--roja {
-        margin-top: -15rem;
-    }
-
-    .text-iv {
-        font-size: 2rem;
-    }
-}
 
 @media (max-width: 640px) {
-    .bl-gracias .text-xxs {
-        font-size: 1.4rem;
-    }
-
-    .bl-gracias .img-feriado1 {
-        top: 17rem;
-        left: -1rem;
-        width: 95px;
-    }
-
-    .bl-gracias .img-feriado4 {
-        right: -3rem;
-        top: 25rem;
-        width: 180px;
-    }
-
-    .bl-gracias .img-feriado5 {
-        top: 19rem;
-    }
-
-    .bl-gracias .img-regalo3 {
-        right: -2rem;
-        top: 22rem;
-        width: 142px;
-    }
-
-    .bl-nubes--azules .img-regalo2 {
-        left: -5rem;
-        top: -36rem;
-    }
-
-    .bl-nubes--rojas .img-billete2 {
-        right: -1rem;
-        width: 200px;
-        top: -9rem;
-    }
-
-    .bl-nubes--rojas .img-billete3 {
-        left: -13rem;
-    }
-
-    .bl-registrar .img-billete1 {
-        left: -5rem;
-        top: 4rem;
-        width: 150px;
-    }
-
-    .bl-registro .img-billete2 {
-        position: absolute;
-        left: -5rem;
-        bottom: 7rem;
-        width: 150px;
-    }
-
-    .bl-registro .img-regalo1 {
-        width: 155px;
-    }
-
-    .bl-superpremios .text-iv {
-        font-size: 1.7rem;
-    }
-
-    .bl-superpremios .img-regalopremios {
-        right: -3rem;
-        top: -4rem;
-        width: 100px;
-    }
-
-    .bl-superpremios .img-regalopremios {
-        right: 0rem;
-        top: -3rem;
-        width: 90px;
-    }
-
-    .bl-registro form .form-group--select select {
-        width: 45%;
-    }
-
-    .bl-registro--preguntas {
-        width: 70%;
-    }
-
-    .btn-premio {
-        font-size: 60px;
-        line-height: 3.5rem;
-    }
-
-    .btn-registro .text-vii {
-        font-size: 2rem;
-    }
-
-    .img-nube--azul {
-        margin-top: -6.5rem;
-    }
-
-    .img-nube--roja {
-        margin-top: -13rem;
-    }
-
-    .text-iv {
-        font-size: 1.7rem;
-    }
-
-    .text-vii {
-        font-size: 4rem;
-    }
+   
 }
 
 @media (max-width: 480px) {
-    .bl-gracias .img-feriado3 {
-        right: 0rem;
-        width: 100px;
-    }
-
-    .bl-gracias .img-feriado4 {
-        right: 0rem;
-        top: 25rem;
-        width: 135px;
-    }
-
-    .bl-gracias .img-regalo3 {
-        right: 0rem;
-        top: 22rem;
-        width: 123px;
-    }
-
-    .bl-gracias .text-xxs {
-        font-size: 1.3rem;
-    }
-
-    .bl-gracias .text-vlg {
-        font-size: 3rem;
-    }
-
-    .bl-nubes--azules .img-billete5 {
-        right: 0rem;
-        width: 230px;
-        top: -8rem;
-    }
-
-    .bl-nubes--rojas .img-billete2 {
-        right: 0rem;
-    }
-
-    .bl-registro .img-regalo1 {
-        width: 120px;
-        top: 0;
-    }
-
-    .bl-registro .img-billete2 {
-        bottom: 3rem;
-    }
-
-    .bl-superpremios .img-regalopremios {
-        right: 0rem;
-        top: -5rem;
-        width: 134px;
-    }
-
-    .bl-superpremios--line {
-        line-height: 3rem;
-    }
-
-    .bl-botonchat {
-        width: 19rem;
-        padding: 0rem 0rem 2rem 0rem;
-        font-size: 21px;
-    }
-
-    .bl-registro {
-        padding: 2rem 2.5rem 2rem;
-    }
-
-    .bl-registro--preguntas {
-        width: 80%;
-    }
-
-    .bl-superpremios .text-iv {
-        font-size: 1.37rem;
-    }
-
-    .img-nube--roja {
-        margin-top: -10rem;
-    }
-
-    .img-nube--azul {
-        margin-top: -5.5rem;
-    }
-
-    .text-xxs {
-        font-size: 1.2rem;
-    }
-
-    .text-iv {
-        font-size: 1.6rem;
-    }
-
-    .text-iv {
-        font-size: 1.49rem;
-    }
-
-    .text-vii {
-        font-size: 3.5rem;
-    }
-
-    .btn-premio {
-        padding: 0rem 1rem;
-        font-size: 52px;
-        line-height: 3rem;
-    }
+    
 }
 
 @media (max-width: 425px) {
-    .bl-contacto .img-billete {
-        top: -9rem;
-        left: -1rem;
-        width: 110px;
-    }
-
-    .bl-gracias .img-feriado2 {
-        top: 3rem;
-        left: 0rem;
-        width: 60px;
-    }
-
-    .bl-gracias .img-feriado3 {
-        right: 0rem;
-        width: 80px;
-        bottom: 13rem;
-    }
-
-    .bl-gracias .img-feriado4 {
-        top: 21rem;
-        width: 120px;
-    }
-
-    .bl-gracias .img-feriado5 {
-        top: 16rem;
-        width: 147px;
-        left: -2rem;
-    }
-
-    .bl-gracias .img-feriado1 {
-        top: 12rem;
-    }
-
-    .bl-gracias .img-regalo3 {
-        top: 19rem;
-    }
-
-    .bl-gracias .img-regalo4 {
-        bottom: 13rem;
-        width: 50px;
-    }
-
-    .bl-gracias .text-xxs {
-        font-size: 1.1rem;
-    }
-
-    .bl-gracias .text-vlg {
-        font-size: 2.5rem;
-        line-height: 2rem;
-    }
-
-    .bl-nubes--azules .img-regalo2 {
-        left: -3rem;
-        top: -29rem;
-    }
-
-    .bl-registrar {
-        padding-bottom: 5rem;
-    }
-
-    .bg-vigilado {
-        background-size: 50%;
-        margin-top: -45px;
-    }
-
-    .bl-registro--preguntas {
-        width: 90%;
-    }
-
-    .bl-registro .text-lgs {
-        font-size: 1.5rem;
-    }
-
-    .bl-registro .btn-red {
-        font-size: 20px;
-    }
-
-    .bl-registro .text-xx {
-        font-size: 1rem;
-    }
-
-    .bl-registro form select.form-control {
-        font-size: .8rem;
-        text-align: center;
-    }
-
-    .bl-registro form .form-group label {
-        font-size: .8rem;
-    }
-
-    .bl-registro form .form-control {
-        font-size: .8rem;
-    }
-
-    .bl-registro form .form-group .form-p-documento {
-        padding-left: 11rem;
-    }
-
-    .bl-superpremios .text-iv {
-        font-size: 1rem;
-    }
-
-    .img-nube--azul {
-        margin-top: -4.5rem;
-    }
-
-    .img-nube--roja {
-        margin-top: -9rem;
-    }
-
-    .text-iv {
-        font-size: 1.465rem;
-    }
-
-    .text-vii {
-        font-size: 3rem;
-    }
-
-    .bl-superpremios {
-        padding-bottom: 25rem;
-    }
-
-    .bl-superpremios .img-1millon {
-        margin-bottom: -27rem;
-    }
+    
 }
 
 @media (max-width: 414px) {
-    .bl-registrar .img-billete1 {
-        left: -3rem;
-        top: 4rem;
-        width: 100px;
-    }
-
-    .bl-registro .img-billete2 {
-        left: -2rem;
-        bottom: 5rem;
-        width: 85px;
-    }
-
-    .text-iv {
-        font-size: 1.3rem;
-    }
+   
 }
 
 @media (max-width: 375px) {
-    .bg-vigilado {
-        background-size: 50%;
-        margin-top: -40px;
-    }
-
-    .bl-gracias .img-regalo3 {
-        top: 16rem;
-        width: 100px
-    }
-
-    .bl-gracias .text-xxs {
-        font-size: .7rem;
-    }
-
-    .bl-nubes--azules .img-regalo2 {
-        width: 110px;
-        left: -1rem;
-        top: -28rem;
-    }
-
-    .bl-nubes--rojas .img-billete2 {
-        top: -7rem;
-    }
-
-    .bl-nubes--rojas .img-billete3 {
-        width: 150px;
-        left: -3rem;
-    }
-
-    .bl-superpremios .text-iv {
-        font-size: .8rem;
-    }
-
-    .bl-superpremios--line {
-        line-height: 2rem;
-        padding-bottom: .5rem;
-    }
-
-    .bl-superpremios .img-regalopremios {
-        top: -4rem;
-        width: 110px;
-    }
-
-    .bl-registro {
-        padding: 2rem 1.5rem 2rem;
-    }
-
-    .bl-registro form .form-group .label-select {
-        padding-right: 0rem;
-    }
-
-    .bl-registro form select.form-control {
-        padding-top: 0rem;
-    }
-
-    .bl-registro--preguntas {
-        width: 100%;
-    }
-
-    .bl-registro .btn-red {
-        font-size: 15px;
-        padding: 0.5rem 2rem;
-    }
-
-    .bl-superpremios .text-lgs {
-        font-size: 1.5rem;
-    }
-
-    .btn-premio {
-        font-size: 40px;
-        line-height: 2rem;
-    }
-
-    .btn-registro .text-vii {
-        font-size: 1.5rem;
-    }
-
-    .img-nube--roja {
-        margin-top: -8rem;
-    }
-
-    .text-iv {
-        font-size: 1.16rem;
-    }
-
-    .text-vii {
-        font-size: 2.5rem;
-    }
-
-    .text-redes {
-        font-size: .8rem;
-    }
+    
 }
 
 @media (max-width: 360px) {
-    .bl-contacto .img-billete {
-        width: 100px;
-    }
-
-    .bl-gracias .text-vlg {
-        font-size: 2rem;
-    }
-
-    .bl-gracias .img-feriado1 {
-        top: 11rem;
-        left: 0rem;
-        width: 80px;
-    }
-
-    .bl-gracias .img-feriado4 {
-        top: 20rem;
-        width: 100px;
-    }
-
-    .bl-gracias .img-feriado5 {
-        top: 13rem;
-    }
-
-    .bl-registro .img-regalo1 {
-        width: 110px;
-        top: 20px;
-        right: 17px
-    }
-
-    .bl-gracias .img-regalo3 {
-        top: 14rem;
-        width: 90px;
-    }
-
-    .bg-vigilado {
-        margin-top: -31px;
-    }
-
-    .bl-superpremios {
-        padding-bottom: 23rem;
-    }
-
-    .bl-superpremios .text-iv {
-        font-size: .75rem;
-    }
-
-    .bl-superpremios .img-regalopremios {
-        top: -4rem;
-        width: 100px;
-    }
-
-    footer {
-        height: 100px;
-    }
-
-    footer .bg-vigilado {
-        margin-top: -50px;
-    }
-
-    .img-logoGiros {
-        padding-left: 1rem;
-    }
-
-    .bl-registro form .form-control {
-        font-size: .6rem;
-    }
-
-    .bl-registro form .form-group .form-p-documento {
-        padding-left: 10rem;
-        padding-right: 0;
-    }
-
-    .bl-registro form .form-group--select select {
-        width: 50%;
-        padding: 0 0.5rem;
-        padding-right: 1.5rem;
-    }
+    
 }
 
 @media (max-width: 320px) {
-    .bl-contacto .img-billete {
-        width: 70px;
-        top: -7rem;
-    }
-
-    .bl-gracias .img-feriado1 {
-        top: 10rem;
-        width: 65px;
-    }
-
-    .bl-gracias .text-xxs {
-        font-size: .86rem;
-    }
-
-    .bl-registrar {
-        padding-bottom: 2rem;
-    }
-
-    .bl-registro .img-regalo1 {
-        width: 100px;
-    }
-
-    .bl-registro form .form-group label {
-        font-size: .75rem;
-    }
-
-    .bl-registro form select.form-control {
-        font-size: .75rem;
-        text-align: center;
-    }
-
-    .bl-registro form .form-group .form-p-documento {
-        padding-left: 9.5rem;
-    }
-
-    .bl-registro {
-        padding: 3rem 1rem 3rem;
-    }
-
-    .bl-registro form .form-check label {
-        font-size: .8rem;
-    }
-
-    .bl-superpremios .text-lg {
-        font-size: 1.2rem;
-    }
-
-    .btn-premio {
-        padding: 0rem 1rem;
-        font-size: 33px;
-        line-height: 2rem;
-    }
-
-    .btn-registro .text-vii {
-        font-size: 1.3rem;
-    }
-
-    .img-logoGiros {
-        padding-left: 1rem;
-    }
-
-    .img-nube--roja {
-        margin-top: -7rem;
-    }
-
-    .img-nube--azul {
-        margin-top: -3.5rem;
-    }
-
-    .bl-superpremios .img-cien {
-        width: 50%;
-    }
-
-    .bl-superpremios .text-lgs {
-        font-size: 1.4rem;
-    }
-
-    .bl-superpremios .text-iv {
-        font-size: 1rem;
-    }
-
-    .text-iv {
-        font-size: 1rem;
-    }
-
-    .text-vii {
-        font-size: 2.2rem;
-    }
-
-    .text-xxs {
-        font-size: 1rem;
-    }
+    
 }
 
 /**SECCION 1**/
 
 /**SECCION 2**/
 .bg-sectionTwo {
-    background-image: url('../images/sectionTwo/fondo.png');
+    /* background-image: url('../images/sectionTwo/fondo.png'); */
     background-repeat: no-repeat;
     background-size: cover;
     height: fit-content;
