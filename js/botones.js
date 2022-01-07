@@ -1,5 +1,5 @@
 var categoria='';
-var eleccion='si';
+var eleccion='';
 function SeleccionarCategoria(params) {
     event.preventDefault();
     document.getElementById('imagencategoria').src='./images/sectionTwo/'+params+'.png';
@@ -15,10 +15,10 @@ function EleccionTarjeta(Elect) {
         document.getElementById('TxtTitulo2Seccion3').innerHTML='para reclamar uno de nuestros premios en efectivo'
     }else if(Elect=='No'){
         document.getElementById('imgTituloSeccion2').src='./images/sectionOne/Título-No.png'
-        document.getElementById('TxtTitulo1Seccion3').innerHTML='>Solicítala en una de nuestras '+<br/>+'oficinas'
+        document.getElementById('TxtTitulo1Seccion3').innerHTML='Solicítala en una de nuestras '+<br/>+'oficinas'
     }
 
-    eleccion='Se'
+    eleccion=Elect
 }
 
 function getCategoria(){
