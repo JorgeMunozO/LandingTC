@@ -1,5 +1,5 @@
 var categoria='';
-var eleccion='si';
+var eleccion='';
 function SeleccionarCategoria(params) {
     event.preventDefault();
     document.getElementById('imagencategoria').src='./images/sectionTwo/'+params+'.png';
@@ -18,7 +18,7 @@ function EleccionTarjeta(Elect) {
         document.getElementById('TxtTitulo1Seccion3').innerHTML='>Solicítala en una de nuestras '+<br/>+'oficinas'
     }
 
-    eleccion='Se'
+    eleccion=Elect
 }
 
 function getCategoria(){
