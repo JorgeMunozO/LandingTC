@@ -22,8 +22,28 @@
     height: 120px;
 }
 
+.table1 thead {
+    border-collapse: collapse;
+    border-radius: 40px 40px 0px 0px;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 3px #fff; /* this draws the table border  */ 
+    background-color: rgba(255, 255, 255, 0.6);
+}
 
+.table1 tbody {
+    border-collapse: collapse;
+    border-radius: 0px 0px 40px 40px;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 3px #fff; /* this draws the table border  */ 
+}
 
+.table1, td, th{
+    border: 3px solid white;
+}
+
+.thmision{
+    text-align: center;
+}
 .rectangulo {
     width: 350px;
     height: 300px;
@@ -606,6 +626,7 @@ header {
 
 .line-normal4ta {
     line-height: 1.2rem;
+    margin: 25px;
 }
 
 .line-normal5ta {
