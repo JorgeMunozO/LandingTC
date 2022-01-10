@@ -1,21 +1,22 @@
 var categoria='';
 var eleccion='';
-function SeleccionarCategoria(params) {
-    event.preventDefault();
-    document.getElementById('imagencategoria').src='./images/sectionTwo/'+params+'.png';
 
-    categoria=params
+function SeleccionarCategoria(CategoryS) {
+    event.preventDefault();
+    document.getElementById('imagencategoria').src='./images/sectionTwo/'+CategoryS+'.png';
+
+    categoria=CategoryS
 }
 
 function EleccionTarjeta(Elect) {
     
     if(Elect=='Si'){
         document.getElementById('imgTituloSeccion2').src='./images/sectionOne/Título-Si.png'
-        document.getElementById('TxtTitulo1Seccion3').innerHTML='Regístrate aquí '+<br/>+'y cumple tu meta'
-        document.getElementById('TxtTitulo2Seccion3').innerHTML='para reclamar uno de nuestros premios en efectivo'
+        document.getElementById('TxtTitulo1Seccion3').innerHTML='Regístrate aquí <br>  y cumple tu meta'
+        document.getElementById('TxtTitulo2Seccion3').innerHTML='para reclamar uno de nuestros <br> premios en efectivo'
     }else if(Elect=='No'){
         document.getElementById('imgTituloSeccion2').src='./images/sectionOne/Título-No.png'
-        document.getElementById('TxtTitulo1Seccion3').innerHTML='Solicítala en una de nuestras '+<br/>+'oficinas'
+        document.getElementById('TxtTitulo1Seccion3').innerHTML='Solicítala en una de nuestras oficinas'
     }
 
     eleccion=Elect

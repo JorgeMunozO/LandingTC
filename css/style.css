@@ -486,21 +486,6 @@
     padding-left: 13rem;
 }
 
-.btn-Si {
-    background: #ffffff;
-    /* color: rgb(41, 40, 40); */
-    border-radius: 5rem;
-    padding: 0.5rem 4rem;
-    border: 1px solid #ffffff;
-
-}
-
-.btn-Si:hover {
-    background: white;
-    color: #05859A;
-    /*  border: 1px solid #f8f8f8; */
-}
-
 .btn-Registrar {
     background: #008ca0;
     color: #ffdf00;
@@ -537,19 +522,16 @@
 
 
 
-.btn-No {
-    background: #feda00;
-    color: #feda00;
-    border-radius: 5rem;
+.btn-Si {
+    background: #ffffff;
+    /* color: rgb(41, 40, 40); */
     padding: 0.5rem 4rem;
-    border: 1px solid #feda00;
-
+    border-bottom: 5px solid rgba(0,0,0,0.24);
+border-radius: 40px;
 }
 
-.btn-No:hover {
+.btn-Si:hover, .btn-Si:focus, .btn-Si:active {
     background: #feda00;
-    color: #feda00;
-    border: 1px solid #feda00;
 }
 
 /* ************ TERCERA SECCION *******************/
@@ -1780,7 +1762,7 @@ p.posit {
     border-radius: 40px 40px 0px 40px;
 }
 
-.botonCategorias:active, .botonCategorias:hover {
+.botonCategorias:active, .botonCategorias:focus {
     background-color: rgb(253, 0, 35)
 }
 
