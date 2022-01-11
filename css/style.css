@@ -80,6 +80,18 @@
     top: 0px;
 }
 
+.contenedor2 {
+    width: 796px;
+    height: 393px;
+    border: 4px solid #fdfbfbf5;
+    background: rgba(250, 248, 248, 0.301);
+    border-radius: 26px;
+    top: 0px;
+    position: relative;
+    left: -5rem;
+}
+
+
 .contenedorTable {
     border: 4px solid #fdfbfbf5;
     background: rgba(250, 248, 248, 0.301);
@@ -111,9 +123,9 @@
     height: 50rem;
 }
 
-.bg-sectionFour {
+/* .bg-sectionFour {
     height: 42rem;
-}
+} */
 
 .bg-sectionFive {
     height: 30rem;
@@ -591,7 +603,7 @@
 
 .inputRegistrar {
     border-radius: 5rem;
-    height: 35px;
+    height: 47px;
     box-shadow: 0px 0px 0px 1px #9594947d inset;
     box-shadow: 1px 2px 5px 0px #a8a4a478;
     border-color: rgb(180 179 177 / 7%);
@@ -878,6 +890,37 @@ p.posit {
 }
 
 @media (max-width:1920px) {
+    .bg-sectionFour {
+        background-image: url('../images/sectionFor/Sección_4.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 53rem;
+        margin-top: -7rem;
+    }
+    .contenedor2 {
+        width: 796px;
+        height: 393px;
+        border: 4px solid #fdfbfbf5;
+        background: rgba(250, 248, 248, 0.301);
+        border-radius: 26px;
+        top: 0px;
+        position: relative;
+        left: -5rem;
+    }
+
+
+    .botonCategorias {
+        font-size: 0.9rem;
+        font-family: 'Museo700';
+        color: white;
+        width: 95%;
+        background-color: rgb(255, 255, 255, 0.3);
+        margin-right: 25px;
+        border: none;
+        border: 4px solid white;
+        border-radius: 40px 40px 0px 40px;
+    }
+
     .contenedor1 {
         width: 350px;
         height: 490px;
@@ -967,6 +1010,37 @@ p.posit {
 }
 
 @media (max-width:1680px) {
+    .bg-sectionFour {
+        background-image: url('../images/sectionFor/Sección_4.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 53rem;
+        margin-top: -7rem;
+    }
+    .contenedor2 {
+        width: 796px;
+        height: 393px;
+        border: 4px solid #fdfbfbf5;
+        background: rgba(250, 248, 248, 0.301);
+        border-radius: 26px;
+        top: 0px;
+        position: relative;
+        left: -5rem;
+    }
+
+
+    .botonCategorias {
+        font-size: 0.9rem;
+        font-family: 'Museo700';
+        color: white;
+        width: 95%;
+        background-color: rgb(255, 255, 255, 0.3);
+        margin-right: 25px;
+        border: none;
+        border: 4px solid white;
+        border-radius: 40px 40px 0px 40px;
+    }
+
     .contenedor1 {
         width: 350px;
         height: 350px;
@@ -1068,6 +1142,36 @@ p.posit {
 }
 
 @media(max-width:1440px) {
+    .bg-sectionFour {
+        background-image: url('../images/sectionFor/Sección_4.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 46rem;
+        margin-top: -7rem;
+    }
+    .contenedor2 {
+        width: 796px;
+        height: 393px;
+        border: 4px solid #fdfbfbf5;
+        background: rgba(250, 248, 248, 0.301);
+        border-radius: 26px;
+        top: 0px;
+        position: relative;
+        left: -5rem;
+    }
+
+    .botonCategorias {
+        font-size: 0.9rem;
+        font-family: 'Museo700';
+        color: white;
+        width: 95%;
+        background-color: rgb(255, 255, 255, 0.3);
+        margin-right: 25px;
+        border: none;
+        border: 4px solid white;
+        border-radius: 40px 40px 0px 40px;
+    }
+
     .bg-section_One {
         background-image: url('../images/sectionOne/Fondo_1.png');
         background-repeat: no-repeat;
@@ -1157,6 +1261,35 @@ p.posit {
 }
 
 @media(max-width:1366px) {
+    .contenedor2 {
+        width: 796px;
+        height: 393px;
+        border: 4px solid #fdfbfbf5;
+        background: rgba(250, 248, 248, 0.301);
+        border-radius: 26px;
+        top: 0px;
+        position: relative;
+        left: -5rem;
+    }
+
+    .botonCategorias {
+        font-size: 0.9rem;
+        font-family: 'Museo700';
+        color: white;
+        width: 95%;
+        background-color: rgb(255, 255, 255, 0.3);
+        margin-right: 25px;
+        border: none;
+        border: 4px solid white;
+        border-radius: 40px 40px 0px 40px;
+    }
+    .bg-sectionFour {
+        background-image: url(../images/sectionFor/Sección_4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 45rem;
+        margin-top: -7rem;
+    }
     .bg-section_One {
         background-image: url('../images/sectionOne/Fondo_1.png');
         background-repeat: no-repeat;
@@ -1166,22 +1299,21 @@ p.posit {
 
     .img-mano {
         position: absolute;
-        top: 4em;
-        left: -7rem;
-        width: 600px;
+        top: -22rem;
+        left: 42.4rem;
+        width: 560px;
     }
 
     .img-tarjeta {
         position: relative;
-        top: 4rem;
-        left: -28.2rem;
-
+        top: 3rem;
+        left: -38.2rem;
     }
 
     .positionForm {
         position: relative;
         top: 0rem;
-        left: 1.8rem;
+        left: 25.8rem;
     }
 
     .bg-sectionthree {
@@ -1190,9 +1322,15 @@ p.posit {
 
     .img-chat {
         position: absolute;
-        top: 0.5rem;
-        left: 9rem;
-        width: 870px;
+        top: -0.5rem;
+        left: 3rem;
+        width: 972px;
+    }
+    .img-icono-mano {
+        position: relative;
+        top: 8rem;
+        left: 54rem;
+        width: 127px;
     }
 
     .positionbtnNo {
@@ -1212,16 +1350,32 @@ p.posit {
         height: 70px;
     }
 
-    .img-mano {
-        position: absolute;
-        top: 7rem;
-        left: -12.6rem;
-        width: 560px;
-
-    }
+    
 }
 
 @media(max-width:1280px) {
+    .contenedor2 {
+        width: 796px;
+        height: 393px;
+        border: 4px solid #fdfbfbf5;
+        background: rgba(250, 248, 248, 0.301);
+        border-radius: 26px;
+        top: 0px;
+        position: relative;
+        left: -5rem;
+    }
+
+    .botonCategorias {
+        font-size: 0.9rem;
+        font-family: 'Museo700';
+        color: white;
+        width: 95%;
+        background-color: rgb(255, 255, 255, 0.3);
+        margin-right: 25px;
+        border: none;
+        border: 4px solid white;
+        border-radius: 40px 40px 0px 40px;
+    }
 
     .positionbtnNo {
         position: absolute;
@@ -1230,7 +1384,6 @@ p.posit {
         width: 224px;
         height: 70px;
     }
-
 
     .positionbtnSi {
         position: absolute;
@@ -1241,10 +1394,15 @@ p.posit {
     }
 
     .img-mano {
-        position: absolute;
+        /*  position: absolute;
         top: 7rem;
         left: -12.6rem;
-        width: 560px;
+        width: 560px; */
+
+        position: absolute;
+        top: -19rem;
+        left: 40.3rem;
+        width: 520px;
     }
 
     /* F */
@@ -1285,6 +1443,35 @@ p.posit {
 }
 
 @media(max-width:1024px) {
+    .bg-sectionFour {
+        background-image: url('../images/sectionFor/Sección_4.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 53rem;
+        margin-top: -7rem;
+    }
+    .contenedor2 {
+        width: 614px;
+        height: 397px;
+        border: 4px solid #fdfbfbf5;
+        background: rgba(250, 248, 248, 0.301);
+        border-radius: 26px;
+        top: 0px;
+        position: relative;
+        left: -5rem;
+    }
+
+    .botonCategorias {
+        font-size: 0.9rem;
+        font-family: 'Museo700';
+        color: white;
+        width: 95%;
+        background-color: rgb(255, 255, 255, 0.3);
+        margin-right: 25px;
+        border: none;
+        border: 4px solid white;
+        border-radius: 40px 40px 0px 40px;
+    }
 
     /* F */
     .line-normal3 {
@@ -1297,6 +1484,10 @@ p.posit {
 
     .text-xxs {
         font-size: 1.12rem;
+    }
+
+    .text-xx {
+        font-size: 1.33rem;
     }
 
     .img-mano {
@@ -1329,15 +1520,16 @@ p.posit {
 
     .img-tarjeta {
         position: relative;
-        top: 4rem;
+        top: 7rem;
         left: -28.2rem;
+        height: 19rem;
 
     }
 
     .positionForm {
         position: relative;
-        top: 2rem;
-        left: 19.8rem;
+        top: 1rem;
+        left: 24rem;
     }
 
     .img-chat {
@@ -1355,14 +1547,25 @@ p.posit {
     }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 990px) { 
+
+    .text-xx {
+        font-size: 1.43rem;
+    }
+
     .img-mano {
         position: absolute;
         top: 7rem;
         left: 3rem;
         width: 620px;
     }
-
+    .bg-sectionFour {
+        background-image: url('../images/sectionFor/Sección_4.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 53rem;
+        margin-top: -7rem;
+    }
     .bg-section_One {
         background-image: url(../images/sectionOne/Fondo_1.png);
         background-repeat: no-repeat;
@@ -1391,7 +1594,6 @@ p.posit {
         left: 1.8rem;
     }
 
-
     .positionbtnNo {
         position: absolute;
         top: 0rem;
@@ -1399,7 +1601,6 @@ p.posit {
         width: 234px;
         height: 70px;
     }
-
 
     .positionbtnSi {
         position: absolute;
@@ -1426,10 +1627,25 @@ p.posit {
         left: 39rem;
         width: 120px;
     }
+
+    .botonCategorias {
+        font-size: 2.5rem;
+        font-family: 'Museo700';
+        color: white;
+        width: 95%;
+        background-color: rgb(255, 255, 255, 0.3);
+        margin-right: 25px;
+        border: none;
+        border: 4px solid white;
+        border-radius: 40px 40px 0px 40px;
+    }
 }
 
-
 @media (max-width: 640px) {
+    .text-xx {
+        font-size: 1.43rem;
+    }
+
     .bg-section_One {
         background-image: url('../images/sectionOne/Fondo_1.png');
         background-repeat: no-repeat;
@@ -1500,9 +1716,25 @@ p.posit {
         width: 200px;
         height: 70px;
     }
+
+    .botonCategorias {
+        font-size: 2.5rem;
+        font-family: 'Museo700';
+        color: white;
+        width: 95%;
+        background-color: rgb(255, 255, 255, 0.3);
+        margin-right: 25px;
+        border: none;
+        border: 4px solid white;
+        border-radius: 40px 40px 0px 40px;
+    }
 }
 
 @media (max-width: 480px) {
+    .text-xx {
+        font-size: 1.43rem;
+    }
+
     .bg-section_One {
         background-image: url('../images/sectionOne/Fondo_1.png');
         background-repeat: no-repeat;
@@ -1572,6 +1804,33 @@ p.posit {
         left: 39rem;
         width: 120px;
     }
+
+    .contenedor2 {
+        width: 796px;
+        height: 393px;
+        border: 4px solid #fdfbfbf5;
+        background: rgba(250, 248, 248, 0.301);
+        border-radius: 26px;
+        top: 0px;
+        position: relative;
+        left: -5rem;
+    }
+
+    .text-xx {
+        font-size: 1.53rem;
+    }
+
+    .botonCategorias {
+        font-size: 2.5rem;
+        font-family: 'Museo700';
+        color: white;
+        width: 95%;
+        background-color: rgb(255, 255, 255, 0.3);
+        margin-right: 25px;
+        border: none;
+        border: 4px solid white;
+        border-radius: 40px 40px 0px 40px;
+    }
 }
 
 @media (max-width: 425px) {}
@@ -1608,13 +1867,13 @@ p.posit {
 
 }
 
-.bg-sectionFour {
+/* .bg-sectionFour {
     background-image: url('../images/sectionFor/Sección_4.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 49rem;
+    height: 53rem;
     margin-top: -7rem;
-}
+} */
 
 .bg-sectionFive {
     background-image: url('../images/sectionFive/Fondo_5.png');
@@ -1652,17 +1911,7 @@ p.posit {
     margin-bottom: 3%;
 }
 
-.botonCategorias {
-    font-size: 0.9rem;
-    font-family: 'Museo700';
-    color: white;
-    width: 95%;
-    background-color: rgb(255, 255, 255, 0.3);
-    margin-right: 25px;
-    border: none;
-    border: 4px solid white;
-    border-radius: 40px 40px 0px 40px;
-}
+
 
 .botonCategorias:active, .botonCategorias:hover {
     background-color: rgb(253, 0, 35)
