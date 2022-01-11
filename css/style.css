@@ -1,3 +1,8 @@
+/* ************* NAV ************* */
+.img-logoGiros {
+    padding-left: 1rem;
+}
+
 /* **************Section Cinco */
 .btn-chat {
     background: #ffffff;
@@ -78,7 +83,7 @@
 }
 
 .bg-sectionthree {
-    height: 44rem;
+    height: 50rem;
 }
 
 .bg-sectionFour {
@@ -298,29 +303,27 @@
     left: 20rem;
     width: 250px;
 }
-.positionSigno{
+
+.positionSigno {
     position: absolute;
-    top: -2rem;
+    top: -1.2rem;
     left: 1rem;
-}
-.positionSignoOut{
-    position: absolute;
-    top: 7.5rem;
-    left: 28rem;
-}
-.rotacionSignoIn{
     transform: rotate(6deg);
 }
 
-.rotacionSignoOut{
+.positionSignoOut {
+    position: absolute;
+    top: 9rem;
+    left: 31.5rem;
     transform: rotate(15deg);
 }
-.img-mano {
+
+/* .img-mano {
     position: absolute;
     top: 2rem;
     left: -2rem;
     width: 620px;
-}
+} */
 
 .img-icono-mano {
     position: absolute;
@@ -345,9 +348,9 @@
 
 .img-tarjeta {
     position: absolute;
-    top: 1rem;
-    left: -6.5rem;
-    width: 620px;
+    top: 4rem;
+    left: -10.5rem;
+    /*  width: 634px; */
 }
 
 .bg-position {
@@ -759,7 +762,7 @@ header {
     font-size: 3.5rem;
 }
 
-.text-signo{
+.text-signo {
     font-size: 7rem;
 }
 
@@ -848,88 +851,762 @@ p.posit {
     src: url('../fonts/MuseoSans-500.otf');
 }
 
+@media (max-width:1920px) {
+    .contenedor1 {
+        width: 350px;
+        height: 490px;
+        border: 4px solid #fdfbfbf5;
+        background: rgba(250, 248, 248, 0.301);
+        border-radius: 26px;
+        top: 90px;
+    }
 
-@media (max-width:1680px) {
     .img-mano {
         position: absolute;
-        top: 2rem;
-        left: -2rem;
+        top: -24rem;
+        left: 44.2rem;
+        width: 700px;
+    }
+
+    .bg-section_One {
+        background-image: url('../images/sectionOne/Fondo_1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 49rem;
+    }
+
+    .positionForm {
+        position: relative;
+        top: 0rem;
+        left: 24.8rem;
+    }
+
+    .img-titulo {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: -7rem;
+        left: -18em;
+        width: 927px;
+    }
+
+    .mano {
+        background-image: url('../images/sectionOne/Tarjeta_1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 42rem;
+        top: 6rem;
+        left: -13rem;
+
+    }
+
+    .img-tarjeta {
+        position: absolute;
+        top: -4rem;
+        left: -53.5rem;
         width: 620px;
     }
 
 
-    
+    .img-chat {
+        position: relative;
+        top: 0.5rem;
+        left: 5rem;
+        width: 968px;
+    }
+
+    .img-icono-mano {
+        position: relative;
+        top: -12rem;
+        left: 55rem;
+        width: 120px;
+    }
+
+    .positionbtnNo {
+        position: absolute;
+        top: 3rem;
+        left: 2rem;
+        width: 224px;
+        height: 70px;
+    }
+
+
+    .positionbtnSi {
+        position: absolute;
+        top: 3rem;
+        left: 7rem;
+        width: 224px;
+        height: 70px;
+    }
+}
+
+@media (max-width:1680px) {
+    .contenedor1 {
+        width: 350px;
+        height: 350px;
+        border: 4px solid #fdfbfbf5;
+        background: rgba(250, 248, 248, 0.301);
+        border-radius: 26px;
+        top: 90px;
+    }
+
+    .img-mano {
+        position: absolute;
+        top: -24rem;
+        left: 44.2rem;
+        width: 700px;
+    }
+
+    .bg-section_One {
+        background-image: url('../images/sectionOne/Fondo_1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 42rem;
+    }
+
+    .positionForm {
+        position: relative;
+        top: 0rem;
+        left: 24.8rem;
+    }
+
+    .img-titulo {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: -6rem;
+        left: 18em;
+        width: 780px;
+    }
+
+    .container_one {
+        max-width: 1440px;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .contenedorOne {
+        height: 500px;
+    }
+
+    .mano {
+        background-image: url('../images/sectionOne/Tarjeta_1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 42rem;
+    }
+
+
+    .img-tarjeta {
+        position: absolute;
+        top: -4rem;
+        left: -53.5rem;
+        width: 620px;
+    }
+
+
+
+    .img-chat {
+        position: relative;
+        top: 0.5rem;
+        left: 5rem;
+        width: 968px;
+    }
+
+    .img-icono-mano {
+        position: relative;
+        top: -12rem;
+        left: 55rem;
+        width: 120px;
+    }
+
+    .positionbtnNo {
+        position: absolute;
+        top: 0rem;
+        left: 2rem;
+        width: 224px;
+        height: 70px;
+    }
+
+
+    .positionbtnSi {
+        position: absolute;
+        top: 0rem;
+        left: 6rem;
+        width: 224px;
+        height: 70px;
+    }
 }
 
 @media(max-width:1440px) {
-    
+    .bg-section_One {
+        background-image: url('../images/sectionOne/Fondo_1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 42rem;
+    }
+
+    .mano {
+        background-image: url('../images/sectionOne/Tarjeta_1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 42rem;
+    }
+
+    .positionForm {
+        position: relative;
+        top: 0rem;
+        left: 24.8rem;
+    }
+
+    .img-mano {
+        position: absolute;
+        top: -20rem;
+        left: 40.9rem;
+        width: 620px;
+    }
+
+    .contenedor1 {
+        height: 400px;
+    }
+
+    .img-titulo {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: -5rem;
+        left: 18em;
+        width: 649px;
+    }
+
+    .img-tarjeta {
+        position: relative;
+        top: -1rem;
+        left: -39.5rem;
+    }
+
+    .positionForm {
+        position: relative;
+        top: 0rem;
+        left: 29.8rem;
+    }
+
+    .bg-sectionthree {
+        height: 54rem;
+    }
+
+    .img-chat {
+        position: relative;
+        top: 0.5rem;
+        left: 5rem;
+        width: 968px;
+    }
+
+    .img-icono-mano {
+        position: relative;
+        top: -12rem;
+        left: 55rem;
+        width: 120px;
+    }
+
+    .positionbtnNo {
+        position: absolute;
+        top: 0rem;
+        left: 2rem;
+        width: 224px;
+        height: 70px;
+    }
+
+
+    .positionbtnSi {
+        position: absolute;
+        top: 0rem;
+        left: 6rem;
+        width: 224px;
+        height: 70px;
+    }
 }
 
 @media(max-width:1366px) {
-    
+    .bg-section_One {
+        background-image: url('../images/sectionOne/Fondo_1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 42rem;
+    }
+
+    .img-mano {
+        position: absolute;
+        top: 4em;
+        left: -7rem;
+        width: 600px;
+    }
+
+    .img-tarjeta {
+        position: relative;
+        top: 4rem;
+        left: -28.2rem;
+
+    }
+
+    .positionForm {
+        position: relative;
+        top: 0rem;
+        left: 1.8rem;
+    }
+
+    .bg-sectionthree {
+        height: 52rem;
+    }
+
+    .img-chat {
+        position: absolute;
+        top: 0.5rem;
+        left: 9rem;
+        width: 870px;
+    }
+
+    .positionbtnNo {
+        position: absolute;
+        top: 0rem;
+        left: 2rem;
+        width: 224px;
+        height: 70px;
+    }
+
+
+    .positionbtnSi {
+        position: absolute;
+        top: 0rem;
+        left: 6rem;
+        width: 224px;
+        height: 70px;
+    }
+
+    .img-mano {
+        position: absolute;
+        top: 7rem;
+        left: -12.6rem;
+        width: 560px;
+
+    }
 }
 
 @media(max-width:1280px) {
-    
+
+    .positionbtnNo {
+        position: absolute;
+        top: 0rem;
+        left: 2rem;
+        width: 224px;
+        height: 70px;
+    }
+
+
+    .positionbtnSi {
+        position: absolute;
+        top: 0rem;
+        left: 6rem;
+        width: 224px;
+        height: 70px;
+    }
+
+    .img-mano {
+        position: absolute;
+        top: 7rem;
+        left: -12.6rem;
+        width: 560px;
+    }
+
+    /* F */
+    .text-xxs {
+        font-size: 1.32rem;
+    }
+
+    /* F */
+    .text-xx {
+        font-size: 1.13rem;
+    }
+
+    .contenedor1 {
+        height: 400px;
+    }
+
+    .img-tarjeta {
+        position: relative;
+        top: 4rem;
+        left: -28.2rem;
+
+    }
+
+    .img-chat {
+        position: relative;
+        top: 2.5rem;
+        left: 6rem;
+        width: 800px;
+    }
+
+    .img-icono-mano {
+        position: relative;
+        top: -9rem;
+        left: 39rem;
+        width: 120px;
+    }
+
 }
 
 @media(max-width:1024px) {
-    
+
+    /* F */
+    .line-normal3 {
+        line-height: 3rem;
+    }
+
+    .text-vi {
+        font-size: 2.9rem;
+    }
+
+    .text-xxs {
+        font-size: 1.12rem;
+    }
+
+    .img-mano {
+        position: absolute;
+        top: 9rem;
+        left: -7.2rem;
+        width: 470px;
+    }
+
+    .contenedor1 {
+        height: 400px;
+    }
+
+    .positionbtnNo {
+        position: absolute;
+        top: 0rem;
+        left: 2rem;
+        width: 199px;
+        height: 70px;
+    }
+
+
+    .positionbtnSi {
+        position: absolute;
+        top: 0rem;
+        left: 3rem;
+        width: 200px;
+        height: 70px;
+    }
+
+    .img-tarjeta {
+        position: relative;
+        top: 4rem;
+        left: -28.2rem;
+
+    }
+
+    .positionForm {
+        position: relative;
+        top: 2rem;
+        left: 19.8rem;
+    }
+
+    .img-chat {
+        position: relative;
+        top: 2.5rem;
+        left: 4rem;
+        width: 800px;
+    }
+
+    .img-icono-mano {
+        position: relative;
+        top: -9rem;
+        left: 46rem;
+        width: 120px;
+    }
 }
 
 @media (max-width: 990px) {
-    
-}
-
-@media (max-width: 768px) {
+    .img-mano {
+        position: absolute;
+        top: 7rem;
+        left: 3rem;
+        width: 620px;
     }
 
+    .bg-section_One {
+        background-image: url(../images/sectionOne/Fondo_1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 66rem;
+    }
+
+    .img-titulo {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 1rem;
+        left: 18em;
+        width: 780px;
+    }
+
+    .img-tarjeta {
+        position: relative;
+        top: 0rem;
+        left: -10.2rem;
+    }
+
+    .positionForm {
+        position: relative;
+        top: 0rem;
+        left: 1.8rem;
+    }
+
+
+    .positionbtnNo {
+        position: absolute;
+        top: 0rem;
+        left: 6rem;
+        width: 234px;
+        height: 70px;
+    }
+
+
+    .positionbtnSi {
+        position: absolute;
+        top: 0rem;
+        left: 3rem;
+        width: 234px;
+        height: 70px;
+    }
+
+    .bg-sectionthree {
+        height: 85rem;
+    }
+
+    .img-chat {
+        position: relative;
+        top: 2.5rem;
+        left: -4rem;
+        width: 819px;
+    }
+
+    .img-icono-mano {
+        position: relative;
+        top: -9rem;
+        left: 39rem;
+        width: 120px;
+    }
+}
+
+
 @media (max-width: 640px) {
-   
+    .bg-section_One {
+        background-image: url('../images/sectionOne/Fondo_1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70rem;
+    }
+
+    .img-mano {
+        position: absolute;
+        top: 7rem;
+        left: 7rem;
+        width: 620px;
+    }
+
+    .fondoSeccion2 {
+        background-image: url('../images/sectionTwo/Asi_de_Facil.png');
+        background-size: 100% 200px;
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg-section_One {
+        background-image: url(../images/sectionOne/Fondo_1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 49rem;
+    }
+
+    .img-titulo {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 1rem;
+        left: 18em;
+        width: 780px;
+    }
+
+    .img-chat {
+        position: relative;
+        top: 2.5rem;
+        left: 6rem;
+        width: 800px;
+    }
+
+    .img-icono-mano {
+        position: relative;
+        top: -9rem;
+        left: 39rem;
+        width: 120px;
+    }
+
+    .positionSignoOut {
+        position: absolute;
+        top: 9rem;
+        left: 26.5rem;
+        transform: rotate(15deg);
+    }
+
+    .positionbtnSi {
+        position: absolute;
+        top: 0rem;
+        left: 3rem;
+        width: 200px;
+        height: 70px;
+    }
 }
 
 @media (max-width: 480px) {
-    
+    .bg-section_One {
+        background-image: url('../images/sectionOne/Fondo_1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70rem;
+    }
+
+    .img-mano {
+        position: absolute;
+        top: 7rem;
+        left: 7rem;
+        width: 620px;
+    }
+
+    .img-titulo {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 1rem;
+        left: 18em;
+        width: 780px;
+    }
+
+    /* ***** */
+    .contenedor1 {
+        height: 400px;
+    }
+
+    .fondoSeccion2 {
+        background-image: url('../images/sectionTwo/Asi_de_Facil.png');
+        background-size: 100% 200px;
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .positionSignoOut {
+        position: absolute;
+        top: 9rem;
+        left: 26.5rem;
+        transform: rotate(15deg);
+    }
+
+    .positionbtnSi {
+        position: absolute;
+        top: 0rem;
+        left: 3rem;
+        width: 200px;
+        height: 70px;
+    }
+
+    .img-chat {
+        position: relative;
+        top: 2.5rem;
+        left: 6rem;
+        width: 800px;
+    }
+
+    .img-icono-mano {
+        position: relative;
+        top: -9rem;
+        left: 39rem;
+        width: 120px;
+    }
 }
 
-@media (max-width: 425px) {
-    
-}
+@media (max-width: 425px) {}
 
-@media (max-width: 414px) {
-   
-}
+@media (max-width: 414px) {}
 
-@media (max-width: 375px) {
-    
-}
+@media (max-width: 375px) {}
 
-@media (max-width: 360px) {
-    
-}
+@media (max-width: 360px) {}
 
-@media (max-width: 320px) {
-    
-}
+@media (max-width: 320px) {}
 
 /**SECCION 1**/
+/* .bg-section_One {
+    background-image: url('../images/sectionOne/Fondo_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 49rem;
+} */
 
 /**SECCION 2**/
 .bg-sectionTwo {
-    /* background-image: url('../images/sectionTwo/fondo.png'); */
+    background-image: url('../images/sectionTwo/fondo.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: fit-content;
+    position: relative;
 }
 
-.img-titulo {
+/* SECCION 3 */
+.bg-sectionthree {
+    background-image: url('../images/sectionThree/Fondo_3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg-sectionFour {
+    background-image: url('../images/sectionFor/Sección_4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 49rem;
+    margin-top: -7rem;
+}
+
+.bg-sectionFive {
+    background-image: url('../images/sectionFive/Fondo_5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/* .img-titulo {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: 3%;
+    margin-top: -6rem;
     left: 18em;
     width: 780px;
-}
+} */
 
 #imagenCategoriaSeccion {
     margin-top: 0.5rem;
@@ -950,14 +1627,14 @@ p.posit {
 }
 
 .botonCategorias {
-    font-size: 1.5rem;
+    font-size: 0.9rem;
     font-family: 'Museo700';
     color: white;
     width: 95%;
     background-color: rgb(255, 255, 255, 0.3);
     margin-right: 25px;
     border: none;
-    border: 6px solid white;
+    border: 4px solid white;
     border-radius: 40px 40px 0px 40px;
 }
 
@@ -970,7 +1647,7 @@ p.posit {
     width: 85%;
     border: 6px solid transparent;
     background-color: rgb(250, 217, 0);
-    border-radius: 40px 40px 40px 40px;
+    border-radius: 60px 60px 60px 60px;
     font-family: 'Museo900';
     font-size: 25pt;
     text-align: center;
@@ -982,7 +1659,7 @@ p.posit {
     background-size: 100% 200px;
     background-repeat: no-repeat;
     height: 200px;
-    width: 50%;
+    width: 80%;
 
     display: flex;
     justify-content: center;

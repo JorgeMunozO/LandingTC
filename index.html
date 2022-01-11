@@ -23,52 +23,43 @@
 
 <body>
 
-    <!-- Nav -->
     <header class="bg-amarillo position-relative">
-        <div class="justify-content-between py-2">
-            <div class="align-self-center text-right ">
-                <div class="row">
+
+        <div class="container">
+            <div class="justify-content-between py-2">
+                <div class="col-12 align-self-center text-right">
                     <div class="bg-vigilado"></div>
-                    <div class="col-md-6"></div>
-                    <div class="col-md-6">
-                        <div class=" col-md-3">
-                            <a href="index.html" class="d-inline-block pl-0 pl-sm-0 img-logoGiros">
-                                <img src="images/logo-giros-old22.png" alt="" class="img-flui d-inline-block ">
-                            </a>
-                        </div>
-                        <div class="col-md-9">
-                            <p class="text-font500 text-xxs pb-5 pl-sm-5 my-2 text-green">
-                                | Donde estés, estamos contigo.
-                            </p>
-                        </div>
-                    </div>
+
+                    <a href="index.html" class="d-inline-block pl-2 pl-sm-4 img-logoGiros">
+                        <img src="images/logo-giros-old22.png" alt="" class="img-fluid d-inline-block ">
+                    </a>
+                    <p class="mb-0 text-right text-verdeCorp text-w-bold d-inline-block text-font500 text-xxs">
+                        | Donde estés, estamos contigo.
+                    </p>
                 </div>
             </div>
         </div>
     </header>
 
     <!-- primera seccion -->
-    <section class="bg-sectionOne">
-
-        <img src="images/sectionOne/Fondo_1.png" alt="" class="img-fluid img-fondo-sectionOne">
-
+    <section class="bg-section_One">
 
         <div class="container">
             <div class="row">
-
-                <div class="col-md-7 contenedor1 ">
+                <div class="col-sm-12 col-md-12 col-lg-7 col-xl-8 contenedor1 ">
                     <br><br>
-                    <div class="col-md-12 text-Tarjet">
+                    <div class="col-sm-12 col-md-10 col-lg-12 text-Tarjet">
+                        <br>
                         <p class="text-col-negro line-normal3 positionSigno rotacionSignoIn">
                             <span class="text-font700 text-signo depthBack">¿</span>
                         </p>
                         <p class="text-col-negro line-normal3 mx-5">
 
                             <span class="text-fontM text-vi depthBack" title="Ya tienes la">Ya tienes la </span><br>
-                            <span class="text-fontM text-iv text-azulOsc depthblue" title="Tarjeta Débito">Tarjeta
+                            <span class="text-fontM text-vi text-azulOsc depthblue" title="Tarjeta Débito">Tarjeta
                                 Débito
                             </span><br>
-                            <span class="text-fontM text-iv text-azulOsc depthblue" title="Giros y Finanzas"> Giros y
+                            <span class="text-fontM text-vi text-azulOsc depthblue" title="Giros y Finanzas"> Giros y
                                 Finanzas</span>
                         </p>
                         <p class="text-col-negro line-normal3 positionSignoOut rotacionSignoOut">
@@ -76,30 +67,31 @@
                         </p>
                     </div>
 
-                    <div class="row">
-                        <div class=" col-md-6 text-center text-fontM">
+                    <div class="col-sm-12 col-md-10 col-lg-12 row">
+                        <div class="col-sm-6 col-md-5 col-lg-6 text-center text-fontM">
                             <button class="btn btn-Si  text-azulOsc positionbtnSi" onclick="EleccionTarjeta('Si')">
                                 <span class="text-iv depthblueSI" title="SI">SI</span>
                             </button>
                         </div>
-                        <div class="col-md-6 text-center text-fontM">
+
+                        <div class="col-sm-6 col-md-5 col-lg-6 text-center text-fontM">
                             <button class="btn btn-No  text-azulOsc positionbtnNo" onclick="EleccionTarjeta('No')">
                                 <span class="text-iv depthblueSI" title="NO">NO</span>
                             </button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5">
-                    <img src="images/sectionOne/Tarjeta_1.png" alt="" class=" img-mano">
+                <div class="offset-1"></div>
+                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-4">
+                    <img src="images/sectionOne/Tarjeta_1.png" alt="" class="img-mano">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- segunda seccion  -->
-    <section class="bg-sectionTwo  ">
-        <img src="images/sectionTwo/fondo.png" alt="" class="img-fluid img-fondo-sectionOne">
-        <div class="col-md-12">
+    <section class="bg-sectionTwo  row">
+        <div class="col-12 ">
             <img src="images/sectionOne/Título-No.png" alt="" class="img-titulo" id="imgTituloSeccion2">
         </div>
         <div class="col-12" id="imagenCategoriaSeccion">
@@ -114,31 +106,31 @@
         <div class="row col-12">
             <div class="col-12">
                 <div class="row botonesCategorias">
-                    <div class="col-md-2 col-12">
+                    <div class="col-10  col-lg-2 mb-2">
                         <button onclick="SeleccionarCategoria('Comida')" class="botonCategorias">
                             <img src="images/sectionTwo/Botones/forma_comida.png">
                             <a>Comida</a>
                         </button>
                     </div>
-                    <div class="col-md-2 col-12 ">
+                    <div class="col-10 col-lg-2 mb-2">
                         <button onclick="SeleccionarCategoria('Moda')" class="botonCategorias">
                             <img src="images/sectionTwo/Botones/forma_moda.png" alt="">
                             <a>Moda</a>
                         </button>
                     </div>
-                    <div class="col-md-2 col-12">
+                    <div class="col-10  col-lg-2 mb-2">
                         <button onclick="SeleccionarCategoria('Entretenimiento')" class="botonCategorias">
                             <img src="images/sectionTwo/Botones/forma_diversion.png" alt="" width="55px" height="41px">
                             <a>Diversión</a>
                         </button>
                     </div>
-                    <div class="col-md-2 col-12">
+                    <div class="col-10 col-lg-2 mb-2">
                         <button onclick="SeleccionarCategoria('Mercado')" class=" botonCategorias">
                             <img src="images/sectionTwo/Botones/forma_mercado.png" alt="">
                             <a>Mercado</a>
                         </button>
                     </div>
-                    <div class="col-md-2 col-12">
+                    <div class="col-10 col-lg-2 mb-2">
                         <button onclick="SeleccionarCategoria('Ahorro')" class=" botonCategorias">
                             <img src="images/sectionTwo/Botones/forma_ahorro.png" alt="">
                             <a>Ahorros</a>
@@ -172,15 +164,12 @@
     </section>
 
     <!-- tercera seccion -->
-    <section class="bg-sectionthree mb-0 ">
-
-        <img src="images/sectionThree/Fondo_3.png" alt="" class="img-fluid img-fondo-sectiontwo">
-
+    <section class="bg-sectionthree">
         <div class="container">
             <div class="row">
                 <!-- titulo -->
                 <div class="col-md-12">
-                    <br>
+                    <br><br>
                     <div class="text-Tarjet text-center line-normal3">
                         <p class="text-fontM text-vi">
                             <span class="text-azulOsc" id="TxtTitulo1Seccion3">Solicítala en una de nuestras
@@ -196,13 +185,8 @@
                     </div>
                 </div>
 
-                <!-- imagen mano tarjeta -->
-                <div class="col-md-5">
-                    <img src="images/sectionThree/Tarjeta_2.png" alt="" class="img-fluid img-tarjeta">
-                </div>
-
                 <!-- contenedor formulario -->
-                <div class="col-md-7">
+                <div class="col-sm-12 col-md-12 col-lg-5 col-lx-7 positionForm">
                     <div class=" my-4 text-font500 contenedor2 ">
                         <div class="row my-4">
 
@@ -242,18 +226,22 @@
                     </div>
                 </div>
 
+                <!-- imagen mano tarjeta -->
+                <div class="colsm-12 col-md-12 col-lg-5 col-xl-5">
+                    <img src="images/sectionThree/Tarjeta_2.png" alt="" class="img-fluid img-tarjeta">
+                </div>
+
             </div>
         </div>
     </section>
 
 
     <!-- cuarta seccion -->
-    <section class="bg-sectionFour mb-0">
-        <img src="images/sectionFor/Sección_4.png" alt="" class="img-fluid img-fondo-sectionOne">
-        <br><br><br><br><br> <br><!-- verificar que pasa para omitir los br -->
-        <div class="container">
+    <section class="bg-sectionFour">
+        <br><br><br><br><br><br><br>
+        <div class="">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-sm-12 col-md-12">
                     <div class=" text-center line-normal3">
                         <p class="text-font700 text-lgs">
                             <span class="text-col-negro">Gana dinero solicitando y usando <br>tu
@@ -262,8 +250,8 @@
 
                     </div>
                 </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-10">
+
+                <div class="mx-5 my-5 col-sm-11 col-md-11">
                     <table class="contenedorTable table_sombra">
                         <thead>
                             <tr>
@@ -363,11 +351,10 @@
 
     <!-- Quinta seccion -->
     <section class="bg-sectionFive">
-        <img src="images/sectionFive/Fondo_5.png" alt="" class="img-fluid img-fondo-sectiontwo">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="text-center ">
+                    <div class="text-center my-2">
                         <p class="text-fontM text-vi">
                             <span class="text-col-negro">¿Tienes preguntas?<span>
                         </p>
@@ -375,35 +362,34 @@
                 </div>
 
 
-                <div class="col-md-12">
+                <div class="col-12">
                     <a href="https://m.me/girosyfinanzascf" target="_blank">
-                        <img src="images/sectionFive/Chat.png" alt="" class="img-fluid img-chat ">
+                        <img src="images/sectionFive/Chat.png" alt="" class="img-flui img-chat ">
                     </a>
 
                 </div>
-                <div class="col-md-12">
-                    <img src="images/sectionFive/click-icon.png" alt="" class="img-fluid img-icono-mano">
+                <div class="col-12">
+                    <img src="images/sectionFive/click-icon.png" alt="" class="img-flui img-icono-mano">
                 </div>
             </div>
         </div>
     </section>
 
     <footer class="bg-amarillo py-5 position-relative">
-        <div class="container">
 
-            <div class="col-12 align-self-center text-left row">
-                <div class="bg-vigilado"></div>
-                <div class="col-md-6"></div>
-                <div class="col-md-6">
+        <div class="container">
+            <div class="row justify-content-between py-2">
+                <div class="col-12 align-self-center text-right">
+                    <div class="bg-vigilado"></div>
+
                     <a href="index.html" class="d-inline-block pl-2 pl-sm-4 img-logoGiros">
                         <img src="images/logo-giros-old22.png" alt="" class="img-fluid d-inline-block ">
                     </a>
-                    <p class="mb-0 text-right text-verdeCorp text-w-bold d-inline-block text-x text-font500">
+                    <p class="mb-0 text-right text-verdeCorp text-w-bold d-inline-block text-font500 text-xxs">
                         | Donde estés, estamos contigo.
                     </p>
                 </div>
             </div>
-
         </div>
     </footer>
 
