@@ -2,24 +2,29 @@
 .img-logoGiros {
     padding-left: 1rem;
 }
+
 /* **** Seccion 4 */
 
 .table1 thead {
     border-collapse: collapse;
     border-radius: 40px 40px 0px 0px;
-    border-style: hidden; /* hide standard table (collapsed) border */
-    box-shadow: 0 0 0 3px #fff; /* this draws the table border  */ 
+    border-style: hidden;
+    /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 3px #fff;
+    /* this draws the table border  */
     background-color: rgba(255, 255, 255, 0.6);
 }
 
 .table1 tbody {
     border-collapse: collapse;
     border-radius: 0px 0px 40px 40px;
-    border-style: hidden; /* hide standard table (collapsed) border */
-    box-shadow: 0 0 0 3px #fff; /* this draws the table border  */ 
+    border-style: hidden;
+    /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 3px #fff;
+    /* this draws the table border  */
 }
 
-.table1, td, th{
+.table1, td, th {
     border: 3px solid white;
 }
 
@@ -517,18 +522,18 @@
 }
 
 .btn-Si {
+
     background: #ffffff;
     /* color: rgb(41, 40, 40); */
-    border-radius: 5rem;
     padding: 0.5rem 4rem;
-    border: 1px solid #ffffff;
-
+    border-bottom: 5px solid rgba(0, 0, 0, 0.24);
+    border-radius: 40px;
 }
 
-.btn-Si:hover {
-    background: white;
-    color: #05859A;
-    /*  border: 1px solid #f8f8f8; */
+
+
+.btn-Si:hover, .btn-Si:focus, .btn-Si:active {
+    background: #feda00;
 }
 
 .btn-Registrar {
