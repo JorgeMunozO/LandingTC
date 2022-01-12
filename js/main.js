@@ -44,7 +44,7 @@ function enviarDatos(datosFormulario){
 
         success:function(json){
             console.log(json)
-            
+            $('#exampleModal').modal('show')
        },
         error:function(xhr, status){
             alert('Error no se pudo realizar el registro')
