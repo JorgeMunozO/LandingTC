@@ -185,13 +185,12 @@
                         </p>
                     </div>
                 </div>
-
+               
                 <!-- contenedor formulario -->
                 <div class="col-sm-12 col-md-12 col-lg-5 col-lx-7 positionForm">
                     <div class=" my-4 text-font500 contenedor2 ">
                         <form>
                             <div class="row my-4">
-
                                 <div class="col-md-12 row mb-3 ">
                                     <h6 class="col-md-5 txt-right text-xx my-1">Nombre Completo:</h6>
                                     <input type="text" class=" inputRegistrar col-md-6 " id="nombre " minlength="5"
@@ -199,20 +198,21 @@
                                 </div>
                                 <div class="col-md-12 row mb-3">
                                     <h6 class="col-md-5 txt-right text-xx my-1">Tipo de Documento:</h6>
-                                    <input type="number" min="12" max="120" class="inputRegistrar col-md-6"
-                                        id="tipo_identidad">
+                                    <input type="text" min="12" max="120" class="inputRegistrar col-md-6"
+                                        id="tipo_identidad" required>
                                 </div>
                                 <div class="col-md-12 row mb-3">
                                     <h6 class="col-md-5 txt-right text-xx my-1">Numero de Documento:</h6>
-                                    <input type="text" class="inputRegistrar col-md-6" id="NoDocumento">
+                                    <input type="number" class="inputRegistrar col-md-6" id="NoDocumento" minlength="8"
+                                        maxlength="11" required>
                                 </div>
                                 <div class="col-md-12 row mb-3">
                                     <h6 class="col-md-5 txt-right text-xx my-1">Email:</h6>
-                                    <input type="text" class="inputRegistrar col-md-6" id="Email">
+                                    <input type="email" class="inputRegistrar col-md-6" id="Email" required>
                                 </div>
-                                <div class="col-md-12 row mb-3 mx-5 ">
+                                <div class="mx-5 col-md-12 row mb-3">
                                     <input type="checkbox" aria-label="Checkbox for following text input"
-                                        class="my-1 mx-2">
+                                        class="my-1 mx-5" required>
                                     <h6 class="text-xx text-font100">He leido y acepto los <a href="#"
                                             class="text-col-negro "
                                             style="text-decoration: underline; font-weight: 900;">terminos y
@@ -221,19 +221,19 @@
                                 <div class="row">
                                     <div class="col-md-8"></div>
                                     <div class="col-md-4">
-                                        <button href="#" class="btn btn-Registrar text-font700" type="submit"
-                                            id="btnRegistrar">
-                                            <span class="text-xxs">Registrarme</span>
-                                        </button>
+                                        <button class="btn btn-Registrar text-font700" type="submit"><span
+                                                class="text-xxs">Registrarme</span></button>
+
                                     </div>
                                 </div>
                             </div>
                         </form>
+
                     </div>
                 </div>
 
                 <!-- imagen mano tarjeta -->
-                <div class="colsm-12 col-md-12 col-lg-5 col-xl-5">
+                <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5">
                     <img src="images/sectionThree/Tarjeta_2.png" alt="" class="img-fluid img-tarjeta">
                 </div>
 
@@ -255,8 +255,8 @@
 
                     </div>
                 </div>
-
-                <div class="mx-5 my-0 col-sm-11 col-md-11">
+                
+                <div class="mx-5 my-0 col-sm-11 col-md-9 col-lg-9 ">
                     <table class="table1">
                         <thead>
                             <tr class="">
@@ -310,7 +310,7 @@
                                 <th>
                                     <div class=" text-center line-normal4ta">
                                         <p class="text-fontM text-4taSection">
-                                            <span class=" text-azulOsc">Cuota de Manejo Gratis</span>
+                                            <span class=" text-azulOsc">Cuota de Manejo Gratis</span><br>
                                             <span class="text-col-negro text-font500 text-xx">por 3 meses(enero, febrero
                                                 y marzo)
 

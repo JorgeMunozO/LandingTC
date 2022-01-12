@@ -1,3 +1,5 @@
+
+
 /* ************* NAV ************* */
 .img-logoGiros {
     padding-left: 1rem;
@@ -986,7 +988,7 @@ p.posit {
     }
 
     .img-icono-mano {
-        position: relative;
+        position: absolute;
         top: -12rem;
         left: 55rem;
         width: 120px;
@@ -1116,7 +1118,7 @@ p.posit {
     }
 
     .img-icono-mano {
-        position: relative;
+        position: absolute;
         top: -12rem;
         left: 55rem;
         width: 120px;
@@ -1232,7 +1234,7 @@ p.posit {
     }
 
     .img-icono-mano {
-        position: relative;
+        position: absolute;
         top: -12rem;
         left: 55rem;
         width: 120px;
@@ -1326,7 +1328,7 @@ p.posit {
     }
 
     .img-icono-mano {
-        position: relative;
+        position: absolute;
         top: 8rem;
         left: 54rem;
         width: 127px;
@@ -1433,7 +1435,7 @@ p.posit {
     }
 
     .img-icono-mano {
-        position: relative;
+        position: absolute;
         top: -9rem;
         left: 39rem;
         width: 120px;
@@ -1540,7 +1542,7 @@ p.posit {
     }
 
     .img-icono-mano {
-        position: relative;
+        position: absolute;
         top: -9rem;
         left: 46rem;
         width: 120px;
@@ -1624,7 +1626,7 @@ p.posit {
     }
 
     .img-icono-mano {
-        position: relative;
+        position: absolute;
         top: -9rem;
         left: 39rem;
         width: 120px;
@@ -1698,7 +1700,7 @@ p.posit {
     }
 
     .img-icono-mano {
-        position: relative;
+        position: absolute;
         top: -9rem;
         left: 39rem;
         width: 120px;
@@ -1801,7 +1803,7 @@ p.posit {
     }
 
     .img-icono-mano {
-        position: relative;
+        position: absolute;
         top: -9rem;
         left: 39rem;
         width: 120px;
