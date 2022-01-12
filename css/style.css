@@ -897,6 +897,7 @@ p.posit {
         height: 53rem;
         margin-top: -7rem;
     }
+
     .contenedor2 {
         width: 796px;
         height: 393px;
@@ -945,9 +946,9 @@ p.posit {
     }
 
     .positionForm {
-        position: relative;
-        top: 0rem;
-        left: 24.8rem;
+        position: absolute;
+        top: 156rem;
+        left: 59.8rem;
     }
 
     .img-titulo {
@@ -971,8 +972,8 @@ p.posit {
 
     .img-tarjeta {
         position: absolute;
-        top: -4rem;
-        left: -53.5rem;
+        top: 2rem;
+        left: -25.5rem;
         width: 620px;
     }
 
@@ -1017,6 +1018,7 @@ p.posit {
         height: 53rem;
         margin-top: -7rem;
     }
+
     .contenedor2 {
         width: 796px;
         height: 393px;
@@ -1065,9 +1067,9 @@ p.posit {
     }
 
     .positionForm {
-        position: relative;
-        top: 0rem;
-        left: 24.8rem;
+        position: absolute;
+        top: 138rem;
+        left: 35.8rem;
     }
 
     .img-titulo {
@@ -1099,15 +1101,12 @@ p.posit {
         height: 42rem;
     }
 
-
     .img-tarjeta {
         position: absolute;
         top: -4rem;
         left: -53.5rem;
         width: 620px;
     }
-
-
 
     .img-chat {
         position: relative;
@@ -1149,6 +1148,7 @@ p.posit {
         height: 46rem;
         margin-top: -7rem;
     }
+
     .contenedor2 {
         width: 796px;
         height: 393px;
@@ -1187,9 +1187,9 @@ p.posit {
     }
 
     .positionForm {
-        position: relative;
-        top: 0rem;
-        left: 24.8rem;
+        position: absolute;
+        top: 140rem;
+        left: 38.8rem;
     }
 
     .img-mano {
@@ -1214,15 +1214,11 @@ p.posit {
 
     .img-tarjeta {
         position: relative;
-        top: -1rem;
-        left: -39.5rem;
+        top: 5rem;
+        left: -11.5rem;
     }
 
-    .positionForm {
-        position: relative;
-        top: 0rem;
-        left: 29.8rem;
-    }
+
 
     .bg-sectionthree {
         height: 54rem;
@@ -1283,6 +1279,7 @@ p.posit {
         border: 4px solid white;
         border-radius: 40px 40px 0px 40px;
     }
+
     .bg-sectionFour {
         background-image: url(../images/sectionFor/Sección_4.png);
         background-repeat: no-repeat;
@@ -1290,6 +1287,7 @@ p.posit {
         height: 45rem;
         margin-top: -7rem;
     }
+
     .bg-section_One {
         background-image: url('../images/sectionOne/Fondo_1.png');
         background-repeat: no-repeat;
@@ -1306,14 +1304,14 @@ p.posit {
 
     .img-tarjeta {
         position: relative;
-        top: 3rem;
-        left: -38.2rem;
+        top: 4rem;
+        left: -9.2rem;
     }
 
     .positionForm {
-        position: relative;
-        top: 0rem;
-        left: 25.8rem;
+        position: absolute;
+        top: 142rem;
+        left: 36.8rem;
     }
 
     .bg-sectionthree {
@@ -1326,6 +1324,7 @@ p.posit {
         left: 3rem;
         width: 972px;
     }
+
     .img-icono-mano {
         position: relative;
         top: 8rem;
@@ -1350,7 +1349,7 @@ p.posit {
         height: 70px;
     }
 
-    
+
 }
 
 @media(max-width:1280px) {
@@ -1450,6 +1449,7 @@ p.posit {
         height: 53rem;
         margin-top: -7rem;
     }
+
     .contenedor2 {
         width: 614px;
         height: 397px;
@@ -1521,14 +1521,14 @@ p.posit {
     .img-tarjeta {
         position: relative;
         top: 7rem;
-        left: -28.2rem;
+        left: -4.1rem;
         height: 19rem;
 
     }
 
     .positionForm {
-        position: relative;
-        top: 1rem;
+        position: absolute;
+        top: 141rem;
         left: 24rem;
     }
 
@@ -1547,7 +1547,7 @@ p.posit {
     }
 }
 
-@media (max-width: 990px) { 
+@media (max-width: 990px) {
 
     .text-xx {
         font-size: 1.43rem;
@@ -1559,6 +1559,7 @@ p.posit {
         left: 3rem;
         width: 620px;
     }
+
     .bg-sectionFour {
         background-image: url('../images/sectionFor/Sección_4.png');
         background-repeat: no-repeat;
@@ -1566,6 +1567,7 @@ p.posit {
         height: 53rem;
         margin-top: -7rem;
     }
+
     .bg-section_One {
         background-image: url(../images/sectionOne/Fondo_1.png);
         background-repeat: no-repeat;
