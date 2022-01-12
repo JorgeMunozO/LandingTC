@@ -16,7 +16,7 @@ function ValidacionDatos() {
         "name":document.getElementById('nombre').value,
         "type_document":document.getElementById('tipo_identidad').value,
         "documentID":document.getElementById('NoDocumento').value,
-        "mail":document.getElementById('Email'),
+        "mail":document.getElementById('Email').value,
         "categoria":getCategoria(),
         "choice":getEleccion()
     }
@@ -26,8 +26,8 @@ function ValidacionDatos() {
         || DatosDocument.documentID=='' || DatosDocument.mail==''){
             alert("FALTAN DATOS POR COMPLETAR")
     }else{
-        console.log(DatosDocument)
-        //enviarDatos(DatosDocument)
+        //console.log(DatosDocument)
+        enviarDatos(DatosDocument)
     }
     
 }

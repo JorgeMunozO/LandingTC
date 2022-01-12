@@ -1,5 +1,5 @@
-var categoria='';
-var eleccion='';
+var categoria='Moda';
+var eleccion='Si';
 
 function SeleccionarCategoria(CategoryS) {
     event.preventDefault();
