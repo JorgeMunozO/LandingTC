@@ -1,4 +1,4 @@
-var api="http://localhost:3999/"
+var api="http://localhost:7865/"
 
 var boton=document.getElementById('btnRegistrar')
 
@@ -16,7 +16,7 @@ function ValidacionDatos() {
         "name":document.getElementById('nombre').value,
         "type_document":document.getElementById('tipo_identidad').value,
         "documentID":document.getElementById('NoDocumento').value,
-        "mail":document.getElementById('Email'),
+        "mail":document.getElementById('Email').value,
         "categoria":getCategoria(),
         "choice":getEleccion()
     }
@@ -27,7 +27,7 @@ function ValidacionDatos() {
             alert("FALTAN DATOS POR COMPLETAR")
     }else{
         console.log(DatosDocument)
-        //enviarDatos(DatosDocument)
+        enviarDatos(DatosDocument)
     }
     
 }
@@ -35,7 +35,7 @@ function ValidacionDatos() {
 function enviarDatos(datosFormulario){
     //alert('entrando al ajax')
     $.ajax({
-        url:api+'customer/register',
+        url:api+'registrousertd',
         data:JSON.stringify(datosFormulario),
         type:'POST',
         contentType:'application/json',
