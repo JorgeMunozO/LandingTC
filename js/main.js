@@ -1,4 +1,4 @@
-var api="http://localhost:3999/"
+var api="http://localhost:7865/"
 
 var boton=document.getElementById('btnRegistrar')
 
@@ -35,7 +35,7 @@ function ValidacionDatos() {
 function enviarDatos(datosFormulario){
     //alert('entrando al ajax')
     $.ajax({
-        url:api+'customer/register',
+        url:api+'registrousertd',
         data:JSON.stringify(datosFormulario),
         type:'POST',
         contentType:'application/json',
