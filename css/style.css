@@ -893,6 +893,11 @@ p.posit {
 }
 
 @media (max-width:1920px) {
+    .content-select {
+        max-width: 377px;
+        position: relative;
+        left: -0.8rem;
+    }
     .tam-img-boton {
         height: 1rem;
         width: 2rem;
@@ -1026,6 +1031,11 @@ p.posit {
 }
 
 @media (max-width:1680px) {
+    .content-select {
+        max-width: 377px;
+        position: relative;
+        left: -0.8rem;
+    }
     .tam-img-boton {
         height: 1rem;
         width: 2rem;
@@ -1168,6 +1178,11 @@ p.posit {
 }
 
 @media (max-width:1560px) {
+    .content-select {
+        max-width: 377px;
+        position: relative;
+        left: -0.8rem;
+    }
     .tam-img-boton {
         height: 1rem;
         width: 2rem;
