@@ -14,10 +14,10 @@
     <title>Tarjeta Débito</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/seccion2.css">
-    <!-- <link rel="icon"
+  
+    <link rel="icon"
         href="https://www.girosyfinanzas.com/wps/contenthandler/girosyfinanzas/!ut/p/digest!pe802azAhUrIDi2o6b-6HQ/dav/fs-type1/themes/TemaGyF/images/favicon.ico"
-        type="image/png" /> -->
+        type="image/png" />
 
 </head>
 
@@ -50,10 +50,10 @@
                     <br><br>
                     <div class="col-sm-12 col-md-10 col-lg-12 text-Tarjet">
                         <br>
-                        <p class="text-col-negro line-normal3 positionSigno rotacionSignoIn">
+                        <p class="text-col-negro line-normal1 positionSigno rotacionSignoIn">
                             <span class="text-font700 text-signo depthBack">¿</span>
                         </p>
-                        <p class="text-col-negro line-normal3 mx-5">
+                        <p class="text-col-negro line-normal1 mx-5">
 
                             <span class="text-fontM text-vi depthBack" title="Ya tienes la">Ya tienes la </span><br>
                             <span class="text-fontM text-vi text-azulOsc depthblue" title="Tarjeta Débito">Tarjeta
@@ -62,7 +62,7 @@
                             <span class="text-fontM text-vi text-azulOsc depthblue" title="Giros y Finanzas"> Giros y
                                 Finanzas</span>
                         </p>
-                        <p class="text-col-negro line-normal3 positionSignoOut rotacionSignoOut">
+                        <p class="text-col-negro line-normal1 positionSignoOut rotacionSignoOut">
                             <span class="text-font700 text-signo depthBack">?</span>
                         </p>
                     </div>
@@ -96,7 +96,7 @@
             <img src="images/sectionOne/Título-No.png" alt="" class="img-titulo" id="imgTituloSeccion2">
         </div>
         <div class="col-12" id="imagenCategoriaSeccion">
-            <img src="images/sectionTwo/Comida.png" id="imagencategoria" alt="">
+            <img src="images/sectionTwo/iconosBtn/Ahorro.png" id="imagencategoria" alt="">
         </div>
 
         <div class="col-12">
@@ -107,33 +107,33 @@
         <div class="row col-12">
             <div class="col-12">
                 <div class="row botonesCategorias">
-                    <div class="col-7  col-lg-2 mb-2">
+                    <div class="col-7 col-lg-2 mb-2">
                         <button onclick="SeleccionarCategoria('Comida')" class="botonCategorias">
-                            <img src="images/sectionTwo/Botones/forma_comida.png">
+                            <img src="images/sectionTwo/Botones/forma_comida.png" class="tam-img-boton">
                             <a>Comida</a>
                         </button>
                     </div>
                     <div class="col-7 col-lg-2 mb-2">
                         <button onclick="SeleccionarCategoria('Moda')" class="botonCategorias">
-                            <img src="images/sectionTwo/Botones/forma_moda.png" alt="">
+                            <img src="images/sectionTwo/Botones/forma_moda.png" alt="" class="tam-img-boton">
                             <a>Moda</a>
                         </button>
                     </div>
                     <div class="col-7  col-lg-2 mb-2">
                         <button onclick="SeleccionarCategoria('Entretenimiento')" class="botonCategorias">
-                            <img src="images/sectionTwo/Botones/forma_diversion.png" alt="" width="55px" height="41px">
+                            <img src="images/sectionTwo/Botones/forma_diversion.png" alt=""  class="tam-img-boton">
                             <a>Diversión</a>
                         </button>
                     </div>
                     <div class="col-7 col-lg-2 mb-2">
                         <button onclick="SeleccionarCategoria('Mercado')" class=" botonCategorias">
-                            <img src="images/sectionTwo/Botones/forma_mercado.png" alt="">
+                            <img src="images/sectionTwo/Botones/forma_mercado.png" alt="" class="tam-img-boton">
                             <a>Mercado</a>
                         </button>
                     </div>
                     <div class="col-7 col-lg-2 mb-2">
                         <button onclick="SeleccionarCategoria('Ahorro')" class=" botonCategorias">
-                            <img src="images/sectionTwo/Botones/forma_ahorro.png" alt="">
+                            <img src="images/sectionTwo/Botones/forma_ahorro.png" alt="" class="tam-img-boton">
                             <a>Ahorros</a>
                         </button>
                     </div>
@@ -143,23 +143,14 @@
                 <div class="fondoSeccion2">
                     <div class="AsiDeFacilText">
 
-                        <p class="text-fontM text-4taSection">
+                        <p class="text-fontM text-4taSection my-1">
                             <span class="text-col-negro">¡Así de fácil conviertes tu
-                                <span class=" text-azulOsc">Tarjeta de Débito Giros <br> y finanzas</span>en el premio
+                                <span class=" text-azulOsc">Tarjeta de Débito <br> Giros  y Finanzas </span>en el premio
                                 que prefieras!</span>
 
                         </p>
-
                     </div>
-                    <!-- <div class="AsiDeFacilText">
-
-                        <span style="color:rgb(79, 79, 79)">¡Así de fácil conviertes tu <span
-                                style="color:rgb(0, 139, 149)">Tarjeta de Débito Giros y finanzas</span>
-                            en el premio que prefieras!</span>
-
-                    </div> -->
                 </div>
-                <!--<img src="images/sectionTwo/Asi_de_Facil.png" alt="" class="img-flui">-->
             </div>
         </div>
     </section>
@@ -197,14 +188,19 @@
                                     <input type="text" class=" inputRegistrar col-md-6 " id="nombre" minlength="5"
                                         maxlength="40" required>
                                 </div>
-                                <div class="col-md-12 row mb-3">
+                                <div class="col-md-12 row mb-3 ">
                                     <h6 class="col-md-5 txt-right text-xx my-1">Tipo de Documento:</h6>
-                                    <!-- <input type="text" min="12" max="120" class="inputRegistrar col-md-6"
-                                        id="tipo_identidad" required> -->
-                                    <select name="select " class="inputRegistrar col-md-6" id="tipo_identidad">
-                                        <option value="CC" selected>Cedula Ciudadania</option>
-                                        <option value="CE">Cedula Extranjeria</option>
-                                    </select>
+
+                                    <div class="col-md-7">
+                                        <div class="content-select ">
+                                            <select name="select " class="inputRegistrar " id="tipo_identidad">
+                                                <option value="CC" selected>Cédula Ciudadania</option>
+                                                <option value="CE">Cedula Extranjeria</option>
+                                            </select>
+                                            <i></i>
+                                        </div>
+
+                                    </div>
                                 </div>
                                 <div class="col-md-12 row mb-3">
                                     <h6 class="col-md-5 txt-right text-xx my-1">Numero de Documento:</h6>
@@ -219,15 +215,15 @@
                                 <div class="mx-5 col-md-12 row mb-3">
                                     <input type="checkbox" aria-label="Checkbox for following text input"
                                         class="my-1 mx-5" required>
-                                    <h6 class="text-xx text-font100">He leido y acepto los <a href="#"
+                                    <h6 class="text-xx text-font100">He leído y acepto los <a href="#"
                                             class="text-col-negro "
-                                            style="text-decoration: underline; font-weight: 900;">terminos y
+                                            style="text-decoration: underline; font-weight: 900;">términos y
                                             condiciones de uso</a></h6>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-8"></div>
                                     <div class="col-md-4">
-                                        <button class="btn btn-Registrar text-font700" type="submit"  data-toggle="modal"
+                                        <button class="btn btn-Registrar text-font700" type="submit" data-toggle="modal"
                                             id="btnRegistrar"><span class="text-xxs">Registrarme</span></button>
                                     </div>
                                 </div>
@@ -255,14 +251,14 @@
                     <div class=" text-center line-normal3">
                         <p class="text-font700 text-lgs">
                             <span class="text-col-negro">Gana dinero solicitando y usando <br>tu
-                                <span class=" text-azulOsc">Tarjeta Débito Giros y Finanza</span>
+                                <span class=" text-azulOsc">Tarjeta Débito Giros y Finanzas</span>
                         </p>
 
                     </div>
                 </div>
 
                 <div class="col-12 ">
-                    <table class="table1" style="margin: 0 auto;">
+                    <table class="table1 " style="margin: 0 auto;">
                         <thead>
                             <tr class="">
                                 <th scope="">
@@ -285,23 +281,22 @@
                         </thead>
                         <tbody>
                             <tr class="">
-                                <td scope="">
+                                <th >
                                     <div class=" text-center line-normal4ta">
                                         <p class="text-font500 text-xx">
                                             <span class="text-azulOsc">Realiza mínimo 10 transacciones </span>
-                                            <span class="text-col-negro">por valor mínimo <br> de $10.000
-                                                cadauna.
-                                                Gananlos primeros 400 <br>clientes en cumplir la meta</span>
+                                            <span class="text-col-negro">por valor mínimo <br> de $10.000 cada una.
+                                                Ganan los primeros 400 <br> clientes en cumplir la meta</span>
                                         </p>
                                     </div>
-                                </td>
-                                <td scope="">
+                                </th>
+                                <th >
                                     <div class=" text-center line-normal4ta">
                                         <p class="text-fontM text-4taSection">
                                             <span class=" text-azulOsc">$50.000*</span>
                                         </p>
                                     </div>
-                                </td>
+                                </th>
                             </tr>
                             <tr>
                                 <th>
@@ -316,7 +311,7 @@
                                     <div class=" text-center line-normal4ta">
                                         <p class="text-fontM text-4taSection">
                                             <span class=" text-azulOsc">Cuota de Manejo Gratis</span><br>
-                                            <span class="text-col-negro text-font500 text-xx">por 3 meses(enero, febrero
+                                            <span class="text-col-negro text-font500 text-xx">por 3 meses (enero, febrero
                                                 y marzo)
 
                                         </p>
@@ -328,9 +323,9 @@
                                     <div class=" text-center line-normal4ta">
                                         <p class="text-font500 text-xx">
                                             <span class=" text-azulOsc">Realiza el mayor número de transacciones</span>
-                                            <span class="text-col-negro"></span>durante <br>
+                                            <span class="text-col-negro">durante <br>
                                             la vigencia de la campaña. Ganan los 25 clientes <br>
-                                            con mayor numero de transacciones.</span>
+                                            con mayor número de transacciones.</span>
                                         </p>
                                     </div>
                                 </th>

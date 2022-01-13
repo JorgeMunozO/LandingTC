@@ -3,7 +3,7 @@ var eleccion='Si';
 
 function SeleccionarCategoria(CategoryS) {
     event.preventDefault();
-    document.getElementById('imagencategoria').src='./images/sectionTwo/'+CategoryS+'.png';
+    document.getElementById('imagencategoria').src='./images/sectionTwo/iconosBtn/'+CategoryS+'.png';
 
     categoria=CategoryS
 }

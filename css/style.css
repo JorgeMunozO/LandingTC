@@ -348,12 +348,12 @@
     transform: rotate(6deg);
 }
 
-.positionSignoOut {
+/* .positionSignoOut {
     position: absolute;
     top: 9rem;
     left: 31.5rem;
     transform: rotate(15deg);
-}
+} */
 
 /* .img-mano {
     position: absolute;
@@ -664,14 +664,17 @@ header {
     line-height: normal;
 }
 
+.line-normal1 {
+    line-height: 2rem;
+}
 
 .line-normal3 {
     line-height: 3rem;
 }
 
 .line-normal4ta {
-    line-height: 1.2rem;
-    margin: 25px;
+    line-height: 1.5rem;
+    margin: 18px;
 }
 
 .line-normal5ta {
@@ -890,6 +893,18 @@ p.posit {
 }
 
 @media (max-width:1920px) {
+    .tam-img-boton {
+        height: 1rem;
+        width: 2rem;
+    }
+
+    .positionSignoOut {
+        position: absolute;
+        top: 8rem;
+        left: 31.2rem;
+        transform: rotate(15deg);
+    }
+
     .bg-sectionFour {
         background-image: url('../images/sectionFor/Sección_4.png');
         background-repeat: no-repeat;
@@ -1011,6 +1026,18 @@ p.posit {
 }
 
 @media (max-width:1680px) {
+    .tam-img-boton {
+        height: 1rem;
+        width: 2rem;
+    }
+
+    .positionSignoOut {
+        position: absolute;
+        top: 8rem;
+        left: 31.5rem;
+        transform: rotate(15deg);
+    }
+
     .bg-sectionFour {
         background-image: url('../images/sectionFor/Sección_4.png');
         background-repeat: no-repeat;
@@ -1124,7 +1151,7 @@ p.posit {
 
     .positionbtnNo {
         position: absolute;
-        top: 0rem;
+        top: 2rem;
         left: 2rem;
         width: 224px;
         height: 70px;
@@ -1133,7 +1160,7 @@ p.posit {
 
     .positionbtnSi {
         position: absolute;
-        top: 0rem;
+        top: 2rem;
         left: 6rem;
         width: 224px;
         height: 70px;
@@ -1141,6 +1168,18 @@ p.posit {
 }
 
 @media (max-width:1560px) {
+    .tam-img-boton {
+        height: 1rem;
+        width: 2rem;
+    }
+
+    .positionSignoOut {
+        position: absolute;
+        top: 8rem;
+        left: 31.5rem;
+        transform: rotate(15deg);
+    }
+
     .positionForm {
         position: absolute;
         top: 138rem;
@@ -1149,6 +1188,24 @@ p.posit {
 }
 
 @media(max-width:1440px) {
+    .tam-img-boton {
+        height: 1.5rem;
+        width: 2rem;
+    }
+
+    .content-select {
+        max-width: 377px;
+        position: relative;
+        left: -0.8rem;
+    }
+
+    .positionSignoOut {
+        position: absolute;
+        top: 8rem;
+        left: 31.5rem;
+        transform: rotate(15deg);
+    }
+
     .bg-sectionFour {
         background-image: url('../images/sectionFor/Sección_4.png');
         background-repeat: no-repeat;
@@ -1169,14 +1226,14 @@ p.posit {
     }
 
     .botonCategorias {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         font-family: 'Museo700';
         color: white;
-        width: 95%;
+        width: 110%;
         background-color: rgb(255, 255, 255, 0.3);
-        margin-right: 25px;
+        margin-right: 20px;
         border: none;
-        border: 4px solid white;
+        border: 3px solid white;
         border-radius: 40px 40px 0px 40px;
     }
 
@@ -1248,7 +1305,7 @@ p.posit {
 
     .positionbtnNo {
         position: absolute;
-        top: 0rem;
+        top: 2rem;
         left: 2rem;
         width: 224px;
         height: 70px;
@@ -1257,7 +1314,7 @@ p.posit {
 
     .positionbtnSi {
         position: absolute;
-        top: 0rem;
+        top: 2rem;
         left: 6rem;
         width: 224px;
         height: 70px;
@@ -1265,6 +1322,24 @@ p.posit {
 }
 
 @media(max-width:1366px) {
+    .tam-img-boton {
+        height: 1rem;
+        width: 2rem;
+    }
+
+    .content-select {
+        max-width: 377px;
+        position: relative;
+        left: -0.8rem;
+    }
+
+    .positionSignoOut {
+        position: absolute;
+        top: 8rem;
+        left: 31.5rem;
+        transform: rotate(15deg);
+    }
+
     .contenedor2 {
         width: 796px;
         height: 393px;
@@ -1277,14 +1352,14 @@ p.posit {
     }
 
     .botonCategorias {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         font-family: 'Museo700';
         color: white;
-        width: 95%;
+        width: 110%;
         background-color: rgb(255, 255, 255, 0.3);
-        margin-right: 25px;
+        margin-right: 20px;
         border: none;
-        border: 4px solid white;
+        border: 3px solid white;
         border-radius: 40px 40px 0px 40px;
     }
 
@@ -1362,6 +1437,24 @@ p.posit {
 }
 
 @media(max-width:1280px) {
+    .tam-img-boton {
+        height: 1rem;
+        width: 2rem;
+    }
+
+    .content-select {
+        max-width: 377px;
+        position: relative;
+        left: -0.8rem;
+    }
+
+    .positionSignoOut {
+        position: absolute;
+        top: 8rem;
+        left: 31.5rem;
+        transform: rotate(15deg);
+    }
+
     .positionForm {
         position: absolute;
         top: 142rem;
@@ -1380,20 +1473,20 @@ p.posit {
     }
 
     .botonCategorias {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         font-family: 'Museo700';
         color: white;
-        width: 95%;
+        width: 110%;
         background-color: rgb(255, 255, 255, 0.3);
-        margin-right: 25px;
+        margin-right: 20px;
         border: none;
-        border: 4px solid white;
+        border: 3px solid white;
         border-radius: 40px 40px 0px 40px;
     }
 
     .positionbtnNo {
         position: absolute;
-        top: 0rem;
+        top: 2rem;
         left: 2rem;
         width: 224px;
         height: 70px;
@@ -1401,7 +1494,7 @@ p.posit {
 
     .positionbtnSi {
         position: absolute;
-        top: 0rem;
+        top: 2rem;
         left: 6rem;
         width: 224px;
         height: 70px;
@@ -1431,7 +1524,7 @@ p.posit {
     .img-tarjeta {
         position: relative;
         top: 4rem;
-        left: -8.2rem;  
+        left: -8.2rem;
     }
 
     .img-chat {
@@ -1451,6 +1544,24 @@ p.posit {
 }
 
 @media(max-width:1024px) {
+    .tam-img-boton {
+        height: 1rem;
+        width: 2rem;
+    }
+
+    .content-select {
+        max-width: 284px;
+        position: relative;
+        left: -0.8rem;
+    }
+
+    .positionSignoOut {
+        position: absolute;
+        top: 8rem;
+        left: 26.1rem;
+        transform: rotate(15deg);
+    }
+
     .bg-sectionFour {
         background-image: url('../images/sectionFor/Sección_4.png');
         background-repeat: no-repeat;
@@ -1471,20 +1582,15 @@ p.posit {
     }
 
     .botonCategorias {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         font-family: 'Museo700';
         color: white;
-        width: 95%;
+        width: 110%;
         background-color: rgb(255, 255, 255, 0.3);
-        margin-right: 25px;
+        margin-right: 20px;
         border: none;
-        border: 4px solid white;
+        border: 3px solid white;
         border-radius: 40px 40px 0px 40px;
-    }
-
-    /* F */
-    .line-normal3 {
-        line-height: 3rem;
     }
 
     .text-vi {
@@ -1512,7 +1618,7 @@ p.posit {
 
     .positionbtnNo {
         position: absolute;
-        top: 0rem;
+        top: 2rem;
         left: 2rem;
         width: 199px;
         height: 70px;
@@ -1521,7 +1627,7 @@ p.posit {
 
     .positionbtnSi {
         position: absolute;
-        top: 0rem;
+        top: 2rem;
         left: 3rem;
         width: 200px;
         height: 70px;
@@ -1557,6 +1663,23 @@ p.posit {
 }
 
 @media (max-width: 990px) {
+    .tam-img-boton {
+        height: 3rem;
+        width: 4rem;
+    }
+
+    .content-select {
+        max-width: 360px;
+        position: relative;
+        left: -0.8rem;
+    }
+
+    .positionSignoOut {
+        position: absolute;
+        top: 8rem;
+        left: 26.1rem;
+        transform: rotate(15deg);
+    }
 
     .text-xx {
         font-size: 1.43rem;
@@ -1610,7 +1733,7 @@ p.posit {
 
     .positionbtnNo {
         position: absolute;
-        top: 0rem;
+        top: 2rem;
         left: 6rem;
         width: 234px;
         height: 70px;
@@ -1618,7 +1741,7 @@ p.posit {
 
     .positionbtnSi {
         position: absolute;
-        top: 0rem;
+        top: 2rem;
         left: 3rem;
         width: 234px;
         height: 70px;
@@ -1667,6 +1790,11 @@ p.posit {
 }
 
 @media (max-width: 640px) {
+    .tam-img-boton {
+        height: 3rem;
+        width: 4rem;
+    }
+
     .text-xx {
         font-size: 1.43rem;
     }
@@ -1729,14 +1857,14 @@ p.posit {
 
     .positionSignoOut {
         position: absolute;
-        top: 9rem;
-        left: 26.5rem;
+        top: 8rem;
+        left: 26.1rem;
         transform: rotate(15deg);
     }
 
     .positionbtnSi {
         position: absolute;
-        top: 0rem;
+        top: 2rem;
         left: 3rem;
         width: 200px;
         height: 70px;
@@ -1756,6 +1884,18 @@ p.posit {
 }
 
 @media (max-width: 480px) {
+    .tam-img-boton {
+        height: 3rem;
+        width: 4rem;
+    }
+
+    .positionSignoOut {
+        position: absolute;
+        top: 8rem;
+        left: 26.1rem;
+        transform: rotate(15deg);
+    }
+
     .text-xx {
         font-size: 1.43rem;
     }
@@ -1803,14 +1943,14 @@ p.posit {
 
     .positionSignoOut {
         position: absolute;
-        top: 9rem;
+        top: 8rem;
         left: 26.5rem;
         transform: rotate(15deg);
     }
 
     .positionbtnSi {
         position: absolute;
-        top: 0rem;
+        top: 2rem;
         left: 3rem;
         width: 200px;
         height: 70px;
@@ -1973,6 +2113,15 @@ p.posit {
     -moz-appearance: none;
 }
 
+
+
+.content-input input,
+.content-select select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
 .content-select select {
     appearance: none;
     -webkit-appearance: none;
@@ -1983,39 +2132,49 @@ p.posit {
     display: none;
 }
 
-.content-select {
-    /* max-width: 250px; */
-    position: relative;
-    border-radius: 5rem;
-    height: 47px;
-    box-shadow: 0px 0px 0px 1px #9594947d inset;
-    box-shadow: 1px 2px 5px 0px #a8a4a478;
-    border-color: rgb(180 179 177 / 7%);
-    border-radius: 20px;
-    box-shadow: inset 0px 1px 3px #5653546e;
-}
+
 
 .content-select select {
     display: inline-block;
     width: 100%;
-    cursor: pointer;
-    padding: 7px 10px;
+    padding: 11px 20px;
     height: 42px;
     outline: 0;
     border: 0;
     border-radius: 0;
-    background: #f0f0f0;
     color: #7b7b7b;
     font-size: 1em;
     color: #999;
-    font-family:
-        'Quicksand', sans-serif;
-    border: 2px solid rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     position: relative;
+    border-radius: 20px;
     transition: all 0.25s ease;
+    border-radius: 20px;
 }
 
 .content-select select:hover {
-    background: #9594947d;
+    background: #fdfdfd;
 }
+
+.content-select i {
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 13px);
+    width: 16px;
+    height: 16px;
+    display: block;
+    border-left: 3px solid #8f9391;
+    border-bottom: 3px solid #8f9391;
+    transform: rotate(-45deg);
+    transition: all 0.25s ease;
+}
+
+.content-select:hover i {
+    margin-top: 3px;
+}
+
+.img {
+    height: 20rem;
+    width: auto;
+}
+
