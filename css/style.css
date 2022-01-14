@@ -934,15 +934,41 @@ p.posit {
     .botonCategorias {
         font-size: 0.9rem;
         font-family: 'Museo700';
-        color: white;
+        color: #118191;
         width: 95%;
         background-color: rgb(255, 255, 255, 0.3);
         margin-right: 25px;
         border: none;
-        border: 4px solid white;
+        border: 4px solid #118191;
         border-radius: 40px 40px 0px 40px;
     }
 
+    .botonCategorias:focus, .botonCategorias:hover {
+        border: 4px solid white;
+        color: white;
+    }
+/*IMAGENES LOGOS CATEGORIAS */
+
+    .btn-catg1:hover img{
+        content:url('../images/sectionTwo/Botones_On/forma_comida.png')
+    }
+
+    .btn-catg2:hover img{
+        content:url('../images/sectionTwo/Botones_On/forma_moda.png')
+    }
+
+    .btn-catg3:hover img{
+        content:url('../images/sectionTwo/Botones_On/forma_diversion.png')
+    }
+
+    .btn-catg4:hover img{
+        content:url('../images/sectionTwo/Botones_On/forma_mercado.png')
+    }
+
+    .btn-catg5:hover img{
+        content:url('../images/sectionTwo/Botones_On/forma_ahorro.png')
+    }
+    /*--------------------------------------------------------------------*/
     .contenedor1 {
         width: 350px;
         height: 490px;
