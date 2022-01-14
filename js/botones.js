@@ -16,7 +16,8 @@ function EleccionTarjeta(Elect) {
         document.getElementById('TxtTitulo2Seccion3').innerHTML='para reclamar uno de nuestros <br> premios en efectivo'
     }else if(Elect=='No'){
         document.getElementById('imgTituloSeccion2').src='./images/sectionOne/Título-No.png'
-        document.getElementById('TxtTitulo1Seccion3').innerHTML='Solicítala en una de nuestras oficinas'
+        document.getElementById('TxtTitulo1Seccion3').innerHTML='Solicítala en una de nuestras oficinas y Regístrate aquí <br>'
+        document.getElementById('TxtTitulo2Seccion3').innerHTML='para cumplir tu meta y reclamar uno de nuestros premios en efectivo.'
     }
 
     eleccion=Elect

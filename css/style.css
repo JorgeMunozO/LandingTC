@@ -898,6 +898,7 @@ p.posit {
         position: relative;
         left: -0.8rem;
     }
+
     .tam-img-boton {
         height: 1rem;
         width: 2rem;
@@ -1036,6 +1037,7 @@ p.posit {
         position: relative;
         left: -0.8rem;
     }
+
     .tam-img-boton {
         height: 1rem;
         width: 2rem;
@@ -1183,6 +1185,7 @@ p.posit {
         position: relative;
         left: -0.8rem;
     }
+
     .tam-img-boton {
         height: 1rem;
         width: 2rem;
@@ -1517,9 +1520,9 @@ p.posit {
 
     .img-mano {
         position: absolute;
-        top: -15rem;
-        left: 40.3rem;
-        width: 520px;
+        top: -8rem;
+        left: 44.3rem;
+        width: 415px;
     }
 
     /* F */
@@ -1558,6 +1561,15 @@ p.posit {
 
 }
 
+/* @media(max-width:1200) {
+    .img-mano {
+        position: absolute;
+        top: 17rem;
+        left: -6.7rem;
+        width: 406px;
+    }
+}
+ */
 @media(max-width:1024px) {
     .tam-img-boton {
         height: 1rem;
@@ -2192,4 +2204,3 @@ p.posit {
     height: 20rem;
     width: auto;
 }
-
