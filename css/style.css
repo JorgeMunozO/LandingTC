@@ -943,7 +943,7 @@ p.posit {
         border-radius: 40px 40px 0px 40px;
     }
 
-    .botonCategorias:focus, .botonCategorias:hover {
+    .botonCategorias:hover {
         border: 4px solid white;
         color: white;
     }
@@ -1108,6 +1108,10 @@ p.posit {
         border-radius: 40px 40px 0px 40px;
     }
 
+    .botonCategorias:hover {
+        border: 4px solid white;
+        color: white;
+    }
     .contenedor1 {
         width: 350px;
         height: 350px;
@@ -1280,7 +1284,10 @@ p.posit {
         border: 3px solid white;
         border-radius: 40px 40px 0px 40px;
     }
-
+    .botonCategorias:hover {
+        border: 4px solid white;
+        color: white;
+    }
     .bg-section_One {
         background-image: url('../images/sectionOne/Fondo_1.png');
         background-repeat: no-repeat;
@@ -1406,7 +1413,10 @@ p.posit {
         border: 3px solid white;
         border-radius: 40px 40px 0px 40px;
     }
-
+    .botonCategorias:hover {
+        border: 4px solid white;
+        color: white;
+    }
     .bg-sectionFour {
         background-image: url(../images/sectionFor/Sección_4.png);
         background-repeat: no-repeat;
@@ -1528,6 +1538,11 @@ p.posit {
         border-radius: 40px 40px 0px 40px;
     }
 
+    .botonCategorias:hover {
+        border: 4px solid white;
+        color: white;
+    }
+
     .positionbtnNo {
         position: absolute;
         top: 2rem;
@@ -1644,6 +1659,11 @@ p.posit {
         border: none;
         border: 3px solid white;
         border-radius: 40px 40px 0px 40px;
+    }
+
+    .botonCategorias:hover {
+        border: 4px solid white;
+        color: white;
     }
 
     .text-vi {
@@ -1830,6 +1850,11 @@ p.posit {
         border-radius: 40px 40px 0px 40px;
     }
 
+    .botonCategorias:hover {
+        border: 4px solid white;
+        color: white;
+    }
+
     .contenedor2 {
         width: 762px;
         height: 397px;
@@ -1933,6 +1958,11 @@ p.posit {
         border: none;
         border: 4px solid white;
         border-radius: 40px 40px 0px 40px;
+    }
+
+    .botonCategorias:hover {
+        border: 4px solid white;
+        color: white;
     }
 }
 
@@ -2048,6 +2078,11 @@ p.posit {
         border: none;
         border: 4px solid white;
         border-radius: 40px 40px 0px 40px;
+    }
+
+    .botonCategorias:hover {
+        border: 4px solid white;
+        color: white;
     }
 }
 
