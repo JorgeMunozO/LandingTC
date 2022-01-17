@@ -20,7 +20,7 @@ const tablaNo="<table class='table1 ' style='margin: 0 auto;'><thead><tr class='
 "<th ><div class=' text-center line-normal4ta'><p class='text-fontM text-4taSection'><span class=' text-azulOsc'>$50.000*</span></p></div></th></tr>"+
 "<tr><th><div class=' text-center line-normal4ta'><p class='text-font500 text-xx'><span class=' text-azulOsc'>Usa tu tarjeta por lo menos una vez almes.</span></p></div></th>"+
 "<th><div class=' text-center line-normal4ta'><p class='text-fontM text-4taSection'><span class=' text-azulOsc'>Cuota de Manejo Gratis</span><br><span class='text-col-negro text-font500 text-xx'>por 3 meses (enero, febreroy marzo)</p></div></th></tr>"+
-"<tr><th><div class=' text-center line-normal4ta'><p class='text-font500 text-xx'><span class=' text-azulOsc'>Realiza el mayor número de transacciones</span><span class='text-col-negro'>durante <br>la vigencia de la campaña (Minimo 8 <br> transacciones para participar) . Ganan los 25 clientes <br>con mayor número de transacciones.</span></p></div></th>"+
+"<tr><th><div class=' text-center line-normal4ta'><p class='text-font500 text-xx'><span class=' text-azulOsc'>Realiza el mayor número de transacciones </span><span class='text-col-negro'>durante <br>la vigencia de la campaña (Mínimo 8 <br> transacciones para participar). Ganan los 25 clientes <br>con mayor número de transacciones.</span></p></div></th>"+
 "<th><div class='text-center line-normal4ta'><p class='text-fontM text-4taSection'><span class=' text-azulOsc'>$200.000*</span></p></div></th></tr></tbody></table>"
 
 function EleccionTarjeta(Elect) {
