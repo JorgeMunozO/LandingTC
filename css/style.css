@@ -893,14 +893,15 @@ p.posit {
 }
 
 @media (max-width:1920px) {
-    .position4ta{
+    .position4ta {
         top: 12rem;
         position: relative;
     }
 
-    .positionTableSi{
+    .positionTableSi {
         margin: 56px auto;
     }
+
     .content-select {
         max-width: 377px;
         position: relative;
@@ -955,27 +956,29 @@ p.posit {
         border: 4px solid white;
         color: white;
     }
-/*IMAGENES LOGOS CATEGORIAS */
 
-    .btn-catg1:hover img{
-        content:url('../images/sectionTwo/Botones_On/forma_comida.png')
+    /*IMAGENES LOGOS CATEGORIAS */
+
+    .btn-catg1:hover img {
+        content: url('../images/sectionTwo/Botones_On/forma_comida.png')
     }
 
-    .btn-catg2:hover img{
-        content:url('../images/sectionTwo/Botones_On/forma_moda.png')
+    .btn-catg2:hover img {
+        content: url('../images/sectionTwo/Botones_On/forma_moda.png')
     }
 
-    .btn-catg3:hover img{
-        content:url('../images/sectionTwo/Botones_On/forma_diversion.png')
+    .btn-catg3:hover img {
+        content: url('../images/sectionTwo/Botones_On/forma_diversion.png')
     }
 
-    .btn-catg4:hover img{
-        content:url('../images/sectionTwo/Botones_On/forma_mercado.png')
+    .btn-catg4:hover img {
+        content: url('../images/sectionTwo/Botones_On/forma_mercado.png')
     }
 
-    .btn-catg5:hover img{
-        content:url('../images/sectionTwo/Botones_On/forma_ahorro.png')
+    .btn-catg5:hover img {
+        content: url('../images/sectionTwo/Botones_On/forma_ahorro.png')
     }
+
     /*--------------------------------------------------------------------*/
     .contenedor1 {
         width: 350px;
@@ -1120,6 +1123,7 @@ p.posit {
         border: 4px solid white;
         color: white;
     }
+
     .contenedor1 {
         width: 350px;
         height: 380px;
@@ -1244,13 +1248,15 @@ p.posit {
 }
 
 @media(max-width:1440px) {
-    .positionTableSi{
+    .positionTableSi {
         margin: 56px auto;
     }
-    .position4ta{
+
+    .position4ta {
         top: 7rem;
         position: relative;
     }
+
     .tam-img-boton {
         height: 1.5rem;
         width: 2rem;
@@ -1299,10 +1305,12 @@ p.posit {
         border: 3px solid white;
         border-radius: 40px 40px 0px 40px;
     }
+
     .botonCategorias:hover {
         border: 4px solid white;
         color: white;
     }
+
     .bg-section_One {
         background-image: url('../images/sectionOne/Fondo_1.png');
         background-repeat: no-repeat;
@@ -1392,9 +1400,11 @@ p.posit {
         top: 8rem;
         position: relative;
     }
+
     .positionTableSi {
         margin: 37px auto;
     }
+
     .tam-img-boton {
         height: 1rem;
         width: 2rem;
@@ -1435,10 +1445,12 @@ p.posit {
         border: 3px solid #118191;
         border-radius: 40px 40px 0px 40px;
     }
+
     .botonCategorias:hover {
         border: 4px solid white;
         color: white;
     }
+
     .bg-sectionFour {
         background-image: url(../images/sectionFor/Sección_4.png);
         background-repeat: no-repeat;
@@ -1624,18 +1636,20 @@ p.posit {
 
 }
 
-@media(max-width:1200px){
+@media(max-width:1200px) {
     .img-mano {
         position: absolute;
-        top: 16rem;
-        left: -3.7rem;
-        width: 434px;
+        top: 18rem;
+        left: -6.7rem;
+        width: 396px;
     }
+
     .positionForm {
         position: absolute;
         top: 141rem;
         left: 26rem;
     }
+
     .contenedor2 {
         width: 614px;
         height: 397px;
@@ -1646,16 +1660,25 @@ p.posit {
         position: relative;
         left: -5rem;
     }
+
+    .positionbtnSi {
+
+        left: 3rem;
+        width: 212px;
+
+    }
 }
+
 @media(max-width:1024px) {
-    .position4ta{
+    .position4ta {
         top: 10rem;
         position: relative;
     }
 
-    .positionTableSi{
+    .positionTableSi {
         margin: 59px auto;
     }
+
     .tam-img-boton {
         height: 1rem;
         width: 2rem;
@@ -1724,11 +1747,10 @@ p.posit {
 
     .img-mano {
         position: absolute;
-        top: 9rem;
-        left: -7.2rem;
-        width: 470px;
+        top: 18rem;
+        left: -9.2rem;
+        width: 402px;
     }
-
     .contenedor1 {
         height: 400px;
     }
@@ -1780,16 +1802,16 @@ p.posit {
 }
 
 @media (max-width: 990px) {
-    
-    .position4ta{
+
+    .position4ta {
         top: 9rem;
         position: relative;
     }
 
-    .positionTableSi{
+    .positionTableSi {
         margin: 71px auto;
     }
-    
+
     .tam-img-boton {
         height: 3rem;
         width: 4rem;

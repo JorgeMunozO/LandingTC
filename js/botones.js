@@ -9,9 +9,10 @@ function SeleccionarCategoria(CategoryS) {
 }
 
 const tablaSi="<table class='table1 positionTableSi' ><thead><tr class=''><th scope=''><div class=' text-center  line-normal4ta'><p class='text-fontM text-4taSection'><span class='text-fontM text-azulOsc'>Misión</span></p></div></th><th scope=''><div class=' text-center  line-normal4ta'><p class='text-fontM text-4taSection'><span class='text-fontM text-azulOsc'>Premio</span></p></div></th></tr></thead>"+
-"<tbody><tr class=''><th ><div class=' text-center line-normal4ta'><p class='text-font500 text-xx'><span class='text-azulOsc'>Reclama tu Tarjeta Débito en nuestras oficinas <br>y úsala mínimo 5 veces. </span><span class='text-col-negro'>Ganan los primeros 200 <br> clientes en cumplir la meta.</span></p></div></th>"+
+"<tbody><tr class=''><th ><div class=' text-center line-normal4ta'><p class='text-font500 text-xx'><span class='text-azulOsc'>Realiza mínimo 10 transacciones </span><span class='text-col-negro'>por el valor <br> mínimo de $10.000 cada una. Ganan los <br> los primeros 400 clientes en cumplir la meta.</span></p></div></th>"+
 "<th ><div class=' text-center line-normal4ta'><p class='text-fontM text-4taSection'><span class=' text-azulOsc'>$50.000*</span></p></div></th></tr>"+
-"<tr><th><div class=' text-center line-normal4ta'><p class='text-font500 text-xx'><span class=' text-azulOsc'>Realiza el mayor número de transacciones</span><span class='text-col-negro'>durante <br>la vigencia de la campaña (Minimo 8 <br> transacciones para participar) . Ganan los 25 clientes <br>con mayor número de transacciones.</span></p></div></th>"+
+
+"<tr><th><div class=' text-center line-normal4ta'><p class='text-font500 text-xx'><span class=' text-azulOsc'>Realiza el mayor número de transacciones </span><span class='text-col-negro'>durante <br>la vigencia de la campaña. Ganan los 25 clientes <br>con mayor número de transacciones.</span></p></div></th>"+
 "<th><div class='text-center line-normal4ta'><p class='text-fontM text-4taSection'><span class=' text-azulOsc'>$200.000*</span></p></div></th></tr></tbody></table>"
 
 const tablaNo="<table class='table1 ' style='margin: 0 auto;'><thead><tr class=''><th scope=''><div class=' text-center  line-normal4ta'><p class='text-fontM text-4taSection'><span class='text-fontM text-azulOsc'>Misión</span></p></div></th><th scope=''><div class=' text-center  line-normal4ta'><p class='text-fontM text-4taSection'><span class='text-fontM text-azulOsc'>Premio</span></p></div></th></tr></thead>"+
