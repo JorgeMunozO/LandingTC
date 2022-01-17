@@ -9,7 +9,7 @@ function SeleccionarCategoria(CategoryS) {
 }
 
 const tablaSi="<table class='table1 positionTableSi' ><thead><tr class=''><th scope=''><div class=' text-center  line-normal4ta'><p class='text-fontM text-4taSection'><span class='text-fontM text-azulOsc'>Misión</span></p></div></th><th scope=''><div class=' text-center  line-normal4ta'><p class='text-fontM text-4taSection'><span class='text-fontM text-azulOsc'>Premio</span></p></div></th></tr></thead>"+
-"<tbody><tr class=''><th ><div class=' text-center line-normal4ta'><p class='text-font500 text-xx'><span class='text-azulOsc'>Realiza mínimo 10 transacciones </span><span class='text-col-negro'>por el valor <br> mínimo de $10.000 cada una. Ganan los <br> los primeros 400 clientes en cumplir la meta.</span></p></div></th>"+
+"<tbody><tr class=''><th ><div class=' text-center line-normal4ta'><p class='text-font500 text-xx'><span class='text-azulOsc'>Realiza mínimo 10 transacciones </span><span class='text-col-negro'>por valor <br> mínimo de $10.000 cada una. Ganan los <br> los primeros 400 clientes en cumplir la meta.</span></p></div></th>"+
 "<th ><div class=' text-center line-normal4ta'><p class='text-fontM text-4taSection'><span class=' text-azulOsc'>$50.000*</span></p></div></th></tr>"+
 
 "<tr><th><div class=' text-center line-normal4ta'><p class='text-font500 text-xx'><span class=' text-azulOsc'>Realiza el mayor número de transacciones </span><span class='text-col-negro'>durante <br>la vigencia de la campaña. Ganan los 25 clientes <br>con mayor número de transacciones.</span></p></div></th>"+
