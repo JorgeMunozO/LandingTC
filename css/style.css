@@ -893,6 +893,14 @@ p.posit {
 }
 
 @media (max-width:1920px) {
+    .position4ta{
+        top: 12rem;
+        position: relative;
+    }
+
+    .positionTableSi{
+        margin: 56px auto;
+    }
     .content-select {
         max-width: 377px;
         position: relative;
@@ -916,7 +924,7 @@ p.posit {
         background-repeat: no-repeat;
         background-size: cover;
         height: 53rem;
-        margin-top: -7rem;
+        margin-top: -9rem;
     }
 
     .contenedor2 {
@@ -925,7 +933,7 @@ p.posit {
         border: 4px solid #fdfbfbf5;
         background: rgba(250, 248, 248, 0.301);
         border-radius: 26px;
-        top: 0px;
+        top: -42px;
         position: relative;
         left: -5rem;
     }
@@ -1114,7 +1122,7 @@ p.posit {
     }
     .contenedor1 {
         width: 350px;
-        height: 350px;
+        height: 380px;
         border: 4px solid #fdfbfbf5;
         background: rgba(250, 248, 248, 0.301);
         border-radius: 26px;
@@ -1236,6 +1244,13 @@ p.posit {
 }
 
 @media(max-width:1440px) {
+    .positionTableSi{
+        margin: 56px auto;
+    }
+    .position4ta{
+        top: 7rem;
+        position: relative;
+    }
     .tam-img-boton {
         height: 1.5rem;
         width: 2rem;
@@ -1373,6 +1388,13 @@ p.posit {
 }
 
 @media(max-width:1366px) {
+    .position4ta {
+        top: 8rem;
+        position: relative;
+    }
+    .positionTableSi {
+        margin: 37px auto;
+    }
     .tam-img-boton {
         height: 1rem;
         width: 2rem;
@@ -1602,16 +1624,38 @@ p.posit {
 
 }
 
-/* @media(max-width:1200) {
+@media(max-width:1200px){
     .img-mano {
         position: absolute;
-        top: 17rem;
-        left: -6.7rem;
-        width: 406px;
+        top: 16rem;
+        left: -3.7rem;
+        width: 434px;
+    }
+    .positionForm {
+        position: absolute;
+        top: 141rem;
+        left: 26rem;
+    }
+    .contenedor2 {
+        width: 614px;
+        height: 397px;
+        border: 4px solid #fdfbfbf5;
+        background: rgba(250, 248, 248, 0.301);
+        border-radius: 26px;
+        top: 0px;
+        position: relative;
+        left: -5rem;
     }
 }
- */
 @media(max-width:1024px) {
+    .position4ta{
+        top: 10rem;
+        position: relative;
+    }
+
+    .positionTableSi{
+        margin: 59px auto;
+    }
     .tam-img-boton {
         height: 1rem;
         width: 2rem;
@@ -1736,6 +1780,16 @@ p.posit {
 }
 
 @media (max-width: 990px) {
+    
+    .position4ta{
+        top: 9rem;
+        position: relative;
+    }
+
+    .positionTableSi{
+        margin: 71px auto;
+    }
+    
     .tam-img-boton {
         height: 3rem;
         width: 4rem;
