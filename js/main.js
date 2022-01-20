@@ -26,14 +26,12 @@ function ValidacionDatos() {
         || DatosDocument.documentID=='' || DatosDocument.mail==''){
             alert("FALTAN DATOS POR COMPLETAR")
     }else{
-        //console.log(DatosDocument)
         enviarDatos(DatosDocument)
     }
     
 }
 
 function enviarDatos(datosFormulario){
-    //alert('entrando al ajax')
     $.ajax({
         url:api+'registrousertd',
         data:JSON.stringify(datosFormulario),
